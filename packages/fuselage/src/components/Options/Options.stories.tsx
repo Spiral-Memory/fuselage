@@ -67,7 +67,7 @@ OptionStory.args = {
 OptionStory.storyName = 'Option';
 
 export const CheckOptionStory: ComponentStory<typeof Options> = Template.bind(
-  {}
+  {},
 );
 CheckOptionStory.args = {
   renderItem: CheckOption,

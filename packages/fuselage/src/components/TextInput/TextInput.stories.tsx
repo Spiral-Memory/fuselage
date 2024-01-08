@@ -32,7 +32,7 @@ const Template: ComponentStory<typeof TextInput> = (args) => (
 export const Default: ComponentStory<typeof TextInput> = Template.bind({});
 
 export const WithIconAddon: ComponentStory<typeof TextInput> = Template.bind(
-  {}
+  {},
 );
 WithIconAddon.args = {
   addon: <Icon name='send' size='x20' />,
@@ -49,7 +49,7 @@ Disabled.args = {
 };
 
 export const WithPlaceholder: ComponentStory<typeof TextInput> = Template.bind(
-  {}
+  {},
 );
 WithPlaceholder.args = {
   placeholder: 'Placeholder',

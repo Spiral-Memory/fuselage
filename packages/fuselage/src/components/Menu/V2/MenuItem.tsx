@@ -20,7 +20,7 @@ function MenuItem({ item, state }: MenuItemProps) {
   const { menuItemProps, isFocused, isDisabled } = useMenuItem(
     { key: item.key },
     state,
-    ref
+    ref,
   );
 
   return (

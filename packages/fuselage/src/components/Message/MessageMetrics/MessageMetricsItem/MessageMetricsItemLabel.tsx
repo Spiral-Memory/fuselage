@@ -6,5 +6,5 @@ type MessageMetricsItemLabelProps = {
 };
 
 export const MessageMetricsItemLabel = (
-  props: MessageMetricsItemLabelProps
+  props: MessageMetricsItemLabelProps,
 ) => <div className='rcx-message-metrics__item-label' {...props} />;

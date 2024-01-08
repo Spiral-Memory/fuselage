@@ -2,13 +2,13 @@ import type { ComponentStory } from '@storybook/react';
 import React, { useState } from 'react';
 
 import Message from '.';
-import { Box, Avatar } from '..';
 import { MessageDivider } from './MessageDivider';
 import { MessageEmoji } from './MessageEmoji';
 import MessageMetrics from './MessageMetrics';
 import MessageReactions from './MessageReactions';
 import MessageToolbox from './MessageToolbox';
 import ThreadMessage, { ThreadMessageEmoji } from './ThreadMessage';
+import { Box, Avatar } from '..';
 
 export default {
   title: 'Message/Message',

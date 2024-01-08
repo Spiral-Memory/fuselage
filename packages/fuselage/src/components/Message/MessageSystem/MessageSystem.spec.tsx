@@ -29,6 +29,6 @@ it('renders without crashing', () => {
           <MessageSystemTimestamp>12:00 PM</MessageSystemTimestamp>
         </MessageSystemBlock>
       </MessageSystemContainer>
-    </MessageSystem>
+    </MessageSystem>,
   );
 });

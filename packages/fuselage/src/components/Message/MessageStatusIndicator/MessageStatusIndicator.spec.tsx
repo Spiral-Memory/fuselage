@@ -7,6 +7,6 @@ it('renders without crashing', () => {
   render(
     <MessageStatusIndicator>
       <MessageStatusIndicatorItem name='star' variant='success' />
-    </MessageStatusIndicator>
+    </MessageStatusIndicator>,
   );
 });

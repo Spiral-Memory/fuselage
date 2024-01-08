@@ -16,7 +16,7 @@ describe('[Field Component]', () => {
     async (_storyname, Story) => {
       const tree = render(<Story />);
       expect(tree.baseElement).toMatchSnapshot();
-    }
+    },
   );
 
   test.each(testCases)(
@@ -26,6 +26,6 @@ describe('[Field Component]', () => {
 
       const results = await axe(container);
       expect(results).toHaveNoViolations();
-    }
+    },
   );
 });

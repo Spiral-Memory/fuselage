@@ -76,7 +76,7 @@ Wrap.args = {
 };
 
 export const WrapAlignCenter: ComponentStory<typeof CardGroup> = Default.bind(
-  {}
+  {},
 );
 WrapAlignCenter.args = {
   wrap: true,
@@ -90,7 +90,7 @@ WrapStretch.args = {
 };
 
 export const VerticalWithHorizontalCard: ComponentStory<typeof CardGroup> = (
-  args
+  args,
 ) => (
   <CardGroup vertical stretch {...args}>
     {Array.from(new Array(9)).map((_, index) => (

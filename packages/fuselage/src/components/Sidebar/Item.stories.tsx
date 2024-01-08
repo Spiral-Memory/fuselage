@@ -8,7 +8,6 @@ import {
 import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
-import { Avatar } from '../..';
 import {
   SidebarItem,
   SidebarItemAvatar,
@@ -21,6 +20,7 @@ import {
   SidebarItemTitle,
   SidebarItemWrapper,
 } from './Item';
+import { Avatar } from '../..';
 
 export default {
   title: 'Sidebar/Item',

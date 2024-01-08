@@ -3,9 +3,9 @@ import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
 import { SidebarSection } from '.';
+import TopBar from './TopBar';
 import { TopBarToolBox } from '..';
 import { Avatar } from '../..';
-import TopBar from './TopBar';
 
 export default {
   title: 'Sidebar/TopBar',

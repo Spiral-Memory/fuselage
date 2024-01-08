@@ -54,7 +54,7 @@ WithPlaceholder.args = {
 };
 
 export const WithValue: ComponentStory<typeof TextAreaInput> = Template.bind(
-  {}
+  {},
 );
 WithValue.args = {
   defaultValue: 'Roses are red\nViolets are blue',

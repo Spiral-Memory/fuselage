@@ -39,7 +39,7 @@ const Template: ComponentStory<typeof NumberInput> = (args) => (
 export const Default: ComponentStory<typeof NumberInput> = Template.bind({});
 
 export const WithIconAddon: ComponentStory<typeof NumberInput> = Template.bind(
-  {}
+  {},
 );
 WithIconAddon.args = {
   addon: <Icon name='send' size='x20' />,

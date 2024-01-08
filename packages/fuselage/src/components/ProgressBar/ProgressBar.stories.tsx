@@ -72,7 +72,7 @@ Error.args = {
 };
 
 export const DefaultLight: ComponentStory<typeof ProgressBar> = Template.bind(
-  {}
+  {},
 );
 DefaultLight.args = {
   percentage: 70,
@@ -80,7 +80,7 @@ DefaultLight.args = {
 };
 
 export const SuccessLight: ComponentStory<typeof ProgressBar> = Template.bind(
-  {}
+  {},
 );
 SuccessLight.args = {
   percentage: 100,
@@ -89,7 +89,7 @@ SuccessLight.args = {
 };
 
 export const WarningLight: ComponentStory<typeof ProgressBar> = Template.bind(
-  {}
+  {},
 );
 WarningLight.args = {
   percentage: 60,
@@ -98,7 +98,7 @@ WarningLight.args = {
 };
 
 export const DangerLight: ComponentStory<typeof ProgressBar> = Template.bind(
-  {}
+  {},
 );
 DangerLight.args = {
   percentage: 100,

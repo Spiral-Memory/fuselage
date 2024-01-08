@@ -13,6 +13,9 @@ import type {
 } from 'react';
 import React, { useState, useRef, useEffect, forwardRef } from 'react';
 
+import MultiSelectAnchor from './MultiSelectAnchor';
+import type { MultiSelectAnchorParams } from './MultiSelectAnchorParams';
+import { SelectedOptions } from './SelectedOptions';
 import type { SelectOption } from '..';
 import { isForwardRefType } from '../../helpers/isForwardRefType';
 import { prevent } from '../../helpers/prevent';
@@ -25,9 +28,6 @@ import { CheckOption } from '../Option';
 import { Options, useCursor } from '../Options';
 import Position from '../Position';
 import SelectAddon from '../Select/SelectAddon';
-import MultiSelectAnchor from './MultiSelectAnchor';
-import type { MultiSelectAnchorParams } from './MultiSelectAnchorParams';
-import { SelectedOptions } from './SelectedOptions';
 
 type MultiSelectProps = Omit<
   ComponentProps<typeof Box>,
@@ -71,10 +71,10 @@ export const MultiSelect = forwardRef(
       addonIcon,
       ...props
     }: MultiSelectProps,
-    ref: Ref<HTMLInputElement>
+    ref: Ref<HTMLInputElement>,
   ) => {
     const [internalValue, setInternalValue] = useState<SelectOption[0][]>(
-      value || []
+      value || [],
     );
 
     useEffect((): void => setInternalValue(value || []), [value]);
@@ -82,7 +82,7 @@ export const MultiSelect = forwardRef(
     const [currentOptionValue, setCurrentOption] = useState<SelectOption[0]>();
 
     const index = options.findIndex(
-      (option) => getValue(option) === currentOptionValue
+      (option) => getValue(option) === currentOptionValue,
     );
 
     const removeFocusClass = () =>
@@ -134,7 +134,7 @@ export const MultiSelect = forwardRef(
 
       if (typeof Anchor === 'function') {
         return (Anchor as (params: MultiSelectAnchorParams) => ReactNode)(
-          params
+          params,
         );
       }
 
@@ -183,7 +183,7 @@ export const MultiSelect = forwardRef(
                     })}
                     {internalValue.map((value: SelectOption[0]) => {
                       const currentOption = options.find(
-                        ([val]) => val === value
+                        ([val]) => val === value,
                       ) as SelectOption;
                       return RenderSelected ? (
                         <RenderSelected
@@ -252,5 +252,5 @@ export const MultiSelect = forwardRef(
         </AnimatedVisibility>
       </Box>
     );
-  }
+  },
 );

@@ -2,15 +2,15 @@ import type { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
 
 import { Card, CardBody, CardCol, CardTitle } from '.';
+import CardControls from './CardControls';
+import CardHeader from './CardHeader';
+import CardRow from './CardRow';
 import { Avatar } from '../Avatar';
 import { Badge } from '../Badge';
 import Box from '../Box/Box';
 import { Button, IconButton } from '../Button';
 import { FramedIcon } from '../FramedIcon';
 import { Tag } from '../Tag';
-import CardControls from './CardControls';
-import CardHeader from './CardHeader';
-import CardRow from './CardRow';
 
 export default {
   title: 'Containers/Card',

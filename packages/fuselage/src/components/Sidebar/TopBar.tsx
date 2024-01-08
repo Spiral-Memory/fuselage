@@ -1,9 +1,9 @@
 import type { ComponentProps, ReactNode, Ref } from 'react';
 import React, { forwardRef } from 'react';
 
-import Box from '../Box';
 import { SidebarAction, SidebarActions } from './SidebarActions';
 import { SidebarDivider } from './SidebarDivider';
+import Box from '../Box';
 
 const Avatar: { size: 'x24' } = { size: 'x24' };
 
@@ -82,7 +82,7 @@ type TopBarActionProps = ComponentProps<typeof SidebarAction>;
 
 export const TopBarAction = forwardRef(function TopBarAction(
   props: TopBarActionProps,
-  ref: Ref<HTMLElement>
+  ref: Ref<HTMLElement>,
 ) {
   return <SidebarAction ref={ref} {...props} />;
 });

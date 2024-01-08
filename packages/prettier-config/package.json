@@ -37,13 +37,13 @@
     "prettier": "~2.7.1"
   },
   "devDependencies": {
-    "eslint": "~8.38.0",
-    "eslint-config-prettier": "~8.8.0",
-    "eslint-plugin-import": "~2.26.0",
-    "eslint-plugin-prettier": "~4.2.1",
+    "eslint": "~8.56.0",
+    "eslint-config-prettier": "~9.1.0",
+    "eslint-plugin-import": "~2.29.1",
+    "eslint-plugin-prettier": "~5.1.2",
     "lint-all": "workspace:~",
-    "lint-staged": "~13.2.1",
-    "prettier": "~2.8.7"
+    "lint-staged": "~15.2.0",
+    "prettier": "~3.1.1"
   },
   "volta": {
     "extends": "../../package.json"

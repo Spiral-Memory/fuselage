@@ -42,7 +42,7 @@ class TestParser extends UiKitParserBanner<unknown> {
             ? [this.text(element.text, BlockContext.SECTION, key++)]
             : []),
           ...(element.fields?.map((field: any) =>
-            this.text(field, BlockContext.SECTION, key++)
+            this.text(field, BlockContext.SECTION, key++),
           ) ?? []),
           ...(element.accessory
             ? [
@@ -50,7 +50,7 @@ class TestParser extends UiKitParserBanner<unknown> {
                   element.accessory,
                   BlockContext.SECTION,
                   undefined,
-                  key++
+                  key++,
                 ),
               ]
             : []),
@@ -65,7 +65,7 @@ class TestParser extends UiKitParserBanner<unknown> {
     props: {
       key: index,
       children: element.elements.map((element: any, key: number) =>
-        this.renderActions(element, BlockContext.ACTION, undefined, key)
+        this.renderActions(element, BlockContext.ACTION, undefined, key),
       ),
       block: context === BlockContext.BLOCK,
     },
@@ -76,7 +76,7 @@ class TestParser extends UiKitParserBanner<unknown> {
     props: {
       key: index,
       children: element.elements.map((element: any, key: number) =>
-        this.renderContext(element, BlockContext.CONTEXT, undefined, key)
+        this.renderContext(element, BlockContext.CONTEXT, undefined, key),
       ),
       block: context === BlockContext.BLOCK,
     },
@@ -201,7 +201,7 @@ class TestParser extends UiKitParserBanner<unknown> {
       })),
       ...(element.initialOption && {
         defaultValue: element.options.find(
-          (option: any) => option.value === element.initialOption.value
+          (option: any) => option.value === element.initialOption.value,
         )?.value,
       }),
     },
@@ -230,8 +230,8 @@ class TestParser extends UiKitParserBanner<unknown> {
         defaultValue: element.options
           .filter((option: any) =>
             element.initialOptions.some(
-              (initialOption: any) => option.value === initialOption.value
-            )
+              (initialOption: any) => option.value === initialOption.value,
+            ),
           )
           .map((option: any) => option.value),
       }),
@@ -260,7 +260,7 @@ class TestParser extends UiKitParserBanner<unknown> {
   linearScale = (
     { minValue = 0, maxValue = 10 }: any,
     _context: any,
-    index: any
+    index: any,
   ): any => ({
     component: 'linear-scale',
     props: {
@@ -278,11 +278,11 @@ class TestParser extends UiKitParserBanner<unknown> {
                   emoji: true,
                 } as PlainText,
                 -1,
-                0
+                0,
               ),
             ],
           },
-        })
+        }),
       ),
     },
   });

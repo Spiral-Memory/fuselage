@@ -11,11 +11,11 @@ import {
 import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
+import { IconButton } from './IconButton';
 import { PropsVariationSection } from '../../../.storybook/helpers';
 import { Badge } from '../Badge';
 import Box from '../Box/Box';
 import { ButtonGroup } from '../ButtonGroup';
-import { IconButton } from './IconButton';
 
 const EmojiElement = (
   <div className='rcx-box rcx-box--full'>

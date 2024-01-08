@@ -9,8 +9,8 @@ import type { ComponentMeta, ComponentStory } from '@storybook/react';
 import { screen, userEvent } from '@storybook/testing-library';
 import React, { useState } from 'react';
 
-import Box from '../Box';
 import { Slider } from './Slider';
+import Box from '../Box';
 
 export default {
   title: 'Inputs/Slider',
@@ -42,7 +42,7 @@ const TemplateVertical: ComponentStory<typeof Slider> = (args) => (
 );
 
 export const SliderPlayExample: ComponentStory<typeof Slider> = Template.bind(
-  {}
+  {},
 );
 SliderPlayExample.args = {
   'aria-label': 'aria-range-label',
@@ -81,7 +81,7 @@ WithLabel.args = {
 } as const;
 
 export const Vertical: ComponentStory<typeof Slider> = TemplateVertical.bind(
-  {}
+  {},
 );
 Vertical.args = {
   'label': 'Range',
@@ -99,7 +99,7 @@ VerticalMultiThumb.args = {
 } as const;
 
 export const WithDefaultValue: ComponentStory<typeof Slider> = Template.bind(
-  {}
+  {},
 );
 WithDefaultValue.args = {
   'defaultValue': 25,

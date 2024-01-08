@@ -8,12 +8,12 @@ import type {
   Ref,
 } from 'react';
 
-import { useArrayLikeClassNameProp } from '../../hooks/useArrayLikeClassNameProp';
-import { useBoxOnlyProps } from '../../hooks/useBoxOnlyProps';
-import type { Falsy } from '../../types/Falsy';
 import { useBoxTransform, BoxTransforms } from './BoxTransforms';
 import type { StylingProps } from './stylingProps';
 import { useStylingProps } from './useStylingProps';
+import { useArrayLikeClassNameProp } from '../../hooks/useArrayLikeClassNameProp';
+import { useBoxOnlyProps } from '../../hooks/useBoxOnlyProps';
+import type { Falsy } from '../../types/Falsy';
 
 type BoxProps = {
   is?: ElementType;
@@ -33,7 +33,7 @@ type BoxProps = {
 
 export const Box = forwardRef(function Box(
   { is = 'div', children, ...props }: BoxProps,
-  ref: Ref<any>
+  ref: Ref<any>,
 ) {
   const propsWithRef: BoxProps & RefAttributes<any> = props;
 

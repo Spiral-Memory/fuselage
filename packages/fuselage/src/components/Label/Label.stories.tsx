@@ -8,8 +8,8 @@ import {
 import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
-import { Label } from '../..';
 import { LabelInfo } from './LabelInfo';
+import { Label } from '../..';
 
 export default {
   title: 'Inputs/Label',

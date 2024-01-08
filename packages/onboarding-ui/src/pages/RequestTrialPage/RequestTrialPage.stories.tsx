@@ -30,7 +30,7 @@ export default {
     ],
     countryOptions: [
       ...Object.entries(countries).map(
-        ([code, { name }]): [value: string, label: string] => [code, name]
+        ([code, { name }]): [value: string, label: string] => [code, name],
       ),
       ['worldwide', 'Worldwide'],
     ],

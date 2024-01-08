@@ -6,9 +6,9 @@ import { themes } from '@storybook/theming';
 import { Suspense } from 'react';
 import { useDarkMode } from 'storybook-dark-mode';
 
+import logo from './logo.svg';
 import manifest from '../package.json';
 import ToastBarProvider from '../src/ToastBarProvider';
-import logo from './logo.svg';
 
 import '@rocket.chat/fuselage/dist/fuselage.css';
 import '@rocket.chat/icons/dist/rocketchat.css';

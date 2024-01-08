@@ -47,7 +47,7 @@ Disabled.args = {
 };
 
 export const WithPlaceholder: ComponentStory<typeof EmailInput> = Template.bind(
-  {}
+  {},
 );
 WithPlaceholder.args = {
   placeholder: 'Placeholder',

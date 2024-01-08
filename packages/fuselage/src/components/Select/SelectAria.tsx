@@ -11,11 +11,11 @@ import {
 } from 'react-aria';
 import { useSelectState } from 'react-stately';
 
+import { ListBox } from './Listbox';
+import { Popover } from './Popover';
 import Box from '../Box/Box';
 import { Icon } from '../Icon';
 import { OptionContainer } from '../Options';
-import { ListBox } from './Listbox';
-import { Popover } from './Popover';
 
 export { Item } from 'react-stately';
 
@@ -33,7 +33,7 @@ export const SelectAria = forwardRef(function SelectAria<T extends object>(
     value?: Key | null;
     onChange?: ((key: Key) => any) | undefined;
   } & React.AllHTMLAttributes<HTMLElement>,
-  outerRef: Ref<HTMLElement>
+  outerRef: Ref<HTMLElement>,
 ) {
   const state = useSelectState({
     isDisabled: disabled,

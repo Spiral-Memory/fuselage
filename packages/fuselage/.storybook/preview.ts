@@ -3,8 +3,8 @@ import { DocsPage, DocsContainer } from '@storybook/addon-docs';
 import type { Parameters } from '@storybook/addons';
 import { themes } from '@storybook/theming';
 
-import manifest from '../package.json';
 import logo from './logo.svg';
+import manifest from '../package.json';
 
 import 'normalize.css/normalize.css';
 import '@rocket.chat/icons/dist/rocketchat.css';
@@ -50,7 +50,7 @@ export const parameters: Parameters = {
           type: 'desktop',
         },
       }),
-      {}
+      {},
     ),
   },
   darkMode: {

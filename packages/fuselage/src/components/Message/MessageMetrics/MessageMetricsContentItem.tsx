@@ -6,5 +6,5 @@ type MessageMetricsContentItemProps = {
 };
 
 export const MessageMetricsContentItem = (
-  props: MessageMetricsContentItemProps
+  props: MessageMetricsContentItemProps,
 ) => <div className='rcx-message-metrics__content-item' {...props} />;

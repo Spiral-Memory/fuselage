@@ -2,6 +2,7 @@ import { Title, Description, Primary, Stories } from '@storybook/addon-docs';
 import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
+import { FieldLabelInfo } from './FieldLabelInfo';
 import {
   Field,
   FieldDescription,
@@ -16,7 +17,6 @@ import {
   RadioButton,
   CheckBox,
 } from '../..';
-import { FieldLabelInfo } from './FieldLabelInfo';
 
 export default {
   title: 'Inputs/Field',

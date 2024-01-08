@@ -8,8 +8,8 @@ import { Suspense } from 'react';
 import { I18nextProvider, initReactI18next } from 'react-i18next';
 import { useDarkMode } from 'storybook-dark-mode';
 
-import manifest from '../package.json';
 import logo from './logo.svg';
+import manifest from '../package.json';
 
 import '@rocket.chat/fuselage/dist/fuselage.css';
 import '@rocket.chat/icons/dist/rocketchat.css';

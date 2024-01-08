@@ -13,6 +13,9 @@ import type {
 } from 'react';
 import React, { useState, useRef, useEffect, forwardRef, useMemo } from 'react';
 
+import SelectAddon from './SelectAddon';
+import type { SelectAnchorParams } from './SelectAnchorParams';
+import SelectFocus from './SelectFocus';
 import { isForwardRefType } from '../../helpers/isForwardRefType';
 import AnimatedVisibility from '../AnimatedVisibility';
 import Box from '../Box';
@@ -21,14 +24,11 @@ import Margins from '../Margins';
 import type { OptionType } from '../Options';
 import { Options, useCursor } from '../Options';
 import PositionAnimated from '../PositionAnimated';
-import SelectAddon from './SelectAddon';
-import type { SelectAnchorParams } from './SelectAnchorParams';
-import SelectFocus from './SelectFocus';
 
 export type SelectOption = readonly [
   value: string,
   label: string,
-  selected?: boolean
+  selected?: boolean,
 ];
 
 type WrapperProps = ComponentProps<typeof Box>;
@@ -84,7 +84,7 @@ export const SelectLegacy = forwardRef(
       customEmpty,
       ...props
     }: SelectProps,
-    ref: Ref<HTMLInputElement>
+    ref: Ref<HTMLInputElement>,
   ) => {
     const [internalValue, setInternalValue] = useState(value || '');
 
@@ -94,7 +94,7 @@ export const SelectLegacy = forwardRef(
     });
 
     const option = options.find(
-      (option) => getValue(option) === internalValue
+      (option) => getValue(option) === internalValue,
     ) as SelectOption;
 
     const index = options.indexOf(option);
@@ -171,7 +171,7 @@ export const SelectLegacy = forwardRef(
         onClick={handleClick}
         className={useMemo(
           () => [error && 'invalid', disabled && 'disabled'],
-          [error, disabled]
+          [error, disabled],
         )}
         {...props}
       >
@@ -239,5 +239,5 @@ export const SelectLegacy = forwardRef(
         </PositionAnimated>
       </Box>
     );
-  }
+  },
 );

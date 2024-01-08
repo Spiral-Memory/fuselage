@@ -8,7 +8,6 @@ import {
 import type { ComponentStory } from '@storybook/react';
 import React from 'react';
 
-import { CheckBox } from '../..';
 import {
   Table,
   TableSelection,
@@ -18,6 +17,7 @@ import {
   TableCell,
   TableBody,
 } from './index';
+import { CheckBox } from '../..';
 
 export default {
   title: 'Data Display/Table',

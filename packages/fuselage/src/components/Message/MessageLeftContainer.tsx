@@ -6,7 +6,7 @@ type MessageLeftContainerProps = {
 };
 
 export const MessageLeftContainer = (
-  props: MessageLeftContainerProps
+  props: MessageLeftContainerProps,
 ): ReactElement => (
   <div
     className='rcx-box rcx-box--full rcx-message-container rcx-message-container--left'

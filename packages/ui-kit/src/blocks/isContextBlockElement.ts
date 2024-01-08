@@ -5,7 +5,7 @@ import { TextObjectType } from './TextObjectType';
 import type { ContextBlock } from './layout/ContextBlock';
 
 export const isContextBlockElement = (
-  block: TextObject | BlockElement
+  block: TextObject | BlockElement,
 ): block is ContextBlock['elements'][number] => {
   switch (block.type as ContextBlock['elements'][number]['type']) {
     case BlockElementType.IMAGE:

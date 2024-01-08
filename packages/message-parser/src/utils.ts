@@ -21,7 +21,7 @@ import type {
 const generate =
   <Type extends keyof Types>(type: Type) =>
   (value: Types[Type]['value']): Types[Type] =>
-    ({ type, value } as any);
+    ({ type, value }) as any;
 
 export const paragraph = generate('PARAGRAPH');
 
@@ -34,7 +34,7 @@ export const color = (r: number, g: number, b: number, a = 255): Color => ({
 
 export const heading = (
   value: Heading['value'],
-  level: Heading['level'] = 1
+  level: Heading['level'] = 1,
 ): Heading => ({
   type: 'HEADING',
   level,
@@ -43,7 +43,7 @@ export const heading = (
 
 export const code = (
   value: Code['value'],
-  language?: Code['language']
+  language?: Code['language'],
 ): Code => ({
   type: 'CODE',
   language: language || 'none',
@@ -167,7 +167,7 @@ export const emoticon = (emoticon: string, shortCode: string): Emoji => ({
 const joinEmoji = (
   current: Inlines,
   previous: Inlines | undefined,
-  next: Inlines | undefined
+  next: Inlines | undefined,
 ): Inlines => {
   if (current.type !== 'EMOJI' || !current.value || (!previous && !next)) {
     return current;
@@ -195,22 +195,25 @@ const joinEmoji = (
 };
 
 export const reducePlainTexts = (
-  values: Paragraph['value']
+  values: Paragraph['value'],
 ): Paragraph['value'] =>
-  values.reduce((result, item, index) => {
-    const next = values[index + 1];
-    const current = joinEmoji(item, values[index - 1], next);
-    const previous: Inlines = result[result.length - 1];
+  values.reduce(
+    (result, item, index) => {
+      const next = values[index + 1];
+      const current = joinEmoji(item, values[index - 1], next);
+      const previous: Inlines = result[result.length - 1];
 
-    if (previous) {
-      if (current.type === 'PLAIN_TEXT' && current.type === previous.type) {
-        previous.value += current.value;
-        return result;
+      if (previous) {
+        if (current.type === 'PLAIN_TEXT' && current.type === previous.type) {
+          previous.value += current.value;
+          return result;
+        }
       }
-    }
 
-    return [...result, current];
-  }, [] as Paragraph['value']);
+      return [...result, current];
+    },
+    [] as Paragraph['value'],
+  );
 export const lineBreak = (): LineBreak => ({
   type: 'LINE_BREAK',
   value: undefined,

@@ -1,6 +1,6 @@
+import type { ContextBlock } from './ContextBlock';
 import type { LayoutBlockType } from '../LayoutBlockType';
 import type { TextObject } from '../TextObject';
-import type { ContextBlock } from './ContextBlock';
 
 type Image = {
   url: string;
@@ -34,10 +34,10 @@ export type PreviewBlock =
   | PreviewBlockWithPreview;
 
 export const isPreviewBlockWithThumb = (
-  previewBlock: PreviewBlock
+  previewBlock: PreviewBlock,
 ): previewBlock is PreviewBlockWithThumb => 'thumb' in previewBlock;
 
 export const isPreviewBlockWithPreview = (
-  previewBlock: PreviewBlock
+  previewBlock: PreviewBlock,
 ): previewBlock is PreviewBlockWithPreview =>
   'externalUrl' in previewBlock || 'oembedUrl' in previewBlock;

@@ -9,9 +9,6 @@ import {
 import type { ComponentStory, ComponentMeta } from '@storybook/react';
 import React from 'react';
 
-import { Box, Menu, StatusBullet, Tile } from '../..';
-import { exampleAvatar, menuOptions } from '../../../.storybook/helpers';
-import { Avatar } from '../Avatar';
 import Option from './Option';
 import OptionAvatar from './OptionAvatar';
 import OptionColumn from './OptionColumn';
@@ -20,6 +17,9 @@ import OptionDescription from './OptionDescription';
 import OptionIcon from './OptionIcon';
 import OptionMenu from './OptionMenu';
 import OptionSkeleton from './OptionSkeleton';
+import { Box, Menu, StatusBullet, Tile } from '../..';
+import { exampleAvatar, menuOptions } from '../../../.storybook/helpers';
+import { Avatar } from '../Avatar';
 
 export default {
   title: 'Navigation/Option',
