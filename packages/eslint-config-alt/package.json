@@ -37,7 +37,7 @@
     "prettier": "~2.7.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "~7.21.3",
+    "@babel/eslint-parser": "~7.23.3",
     "eslint": "~8.38.0",
     "lint-all": "workspace:~",
     "lint-staged": "~13.2.1",
