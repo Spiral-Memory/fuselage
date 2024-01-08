@@ -12,7 +12,7 @@
     "hygen": "~6.1.5",
     "lerna": "~4.0.0",
     "lint-staged": "~13.2.1",
-    "turbo": "~1.1.10",
+    "turbo": "~1.11.3",
     "update-readme": "workspace:~",
     "webpack": "~5.78.0"
   },
