@@ -42,8 +42,7 @@
     "test": "jest --runInBand",
     "watch": "jest --watch",
     "docs": "cross-env NODE_ENV=production build-storybook -o ../../static/fuselage",
-    "build-storybook": "cross-env NODE_ENV=production build-storybook",
-    "bump-next": "bump-next"
+    "build-storybook": "cross-env NODE_ENV=production build-storybook"
   },
   "peerDependencies": {
     "@rocket.chat/fuselage-hooks": "*",
@@ -97,7 +96,6 @@
     "@types/jest-axe": "~3.5.5",
     "autoprefixer": "~10.4.14",
     "babel-loader": "~9.1.2",
-    "bump": "workspace:~",
     "caniuse-lite": "~1.0.30001477",
     "cross-env": "^7.0.3",
     "css-loader": "~6.7.3",

@@ -34,8 +34,7 @@
     ".:build:cjs": "tsc -p tsconfig-cjs.json",
     "lint": "lint",
     "lint-and-fix": "lint-and-fix",
-    "lint-staged": "lint-staged",
-    "bump-next": "bump-next"
+    "lint-staged": "lint-staged"
   },
   "bugs": {
     "url": "https://github.com/RocketChat/fuselage/issues"
@@ -48,7 +47,6 @@
     "@rocket.chat/eslint-config-alt": "workspace:~",
     "@rocket.chat/prettier-config": "workspace:~",
     "@types/node": "~14.18.42",
-    "bump": "workspace:~",
     "eslint": "~8.38.0",
     "lint-all": "workspace:~",
     "lint-staged": "~13.2.1",

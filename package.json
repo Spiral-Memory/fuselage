@@ -8,7 +8,6 @@
   "devDependencies": {
     "@changesets/changelog-github": "~0.4.8",
     "@changesets/cli": "~2.26.2",
-    "bump": "workspace:~",
     "husky": "~7.0.4",
     "hygen": "~6.1.5",
     "lerna": "~4.0.0",
@@ -30,10 +29,8 @@
     "update-readme": "update-readme",
     "resolve-workspace-deps": "yarn workspace scripts run resolve-workspace-deps",
     "create-package": "hygen create-package",
-    "bump-next": "yarn workspaces foreach --no-private -v run bump-next",
     "release": "yarn changeset publish",
-    "changeset": "changeset",
-    "release-next": "yarn workspaces foreach --no-private -v npm publish --tag next --tolerate-republish"
+    "changeset": "changeset"
   },
   "devEngines": {
     "node": "~14.21.3"
