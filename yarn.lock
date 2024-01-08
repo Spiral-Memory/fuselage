@@ -3362,10 +3362,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/hash@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "@emotion/hash@npm:0.9.0"
-  checksum: b63428f7c8186607acdca5d003700cecf0ded519d0b5c5cc3b3154eafcad6ff433f8361bd2bac8882715b557e6f06945694aeb6ba8b25c6095d7a88570e2e0bb
+"@emotion/hash@npm:~0.9.1":
+  version: 0.9.1
+  resolution: "@emotion/hash@npm:0.9.1"
+  checksum: 716e17e48bf9047bf9383982c071de49f2615310fb4e986738931776f5a823bc1f29c84501abe0d3df91a3803c80122d24e28b57351bca9e01356ebb33d89876
   languageName: node
   linkType: hard
 
@@ -7714,7 +7714,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@rocket.chat/css-in-js@workspace:packages/css-in-js"
   dependencies:
-    "@emotion/hash": "npm:^0.9.0"
+    "@emotion/hash": "npm:~0.9.1"
     "@rocket.chat/css-supports": "workspace:~"
     "@rocket.chat/eslint-config-alt": "workspace:~"
     "@rocket.chat/memo": "workspace:~"
@@ -7725,7 +7725,7 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:~13.1.3"
     "@rollup/plugin-typescript": "npm:~8.3.4"
     "@types/jest": "npm:~29.5.0"
-    "@types/stylis": "npm:^4.0.2"
+    "@types/stylis": "npm:~4.2.5"
     eslint: "npm:~8.38.0"
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
@@ -7733,7 +7733,7 @@ __metadata:
     prettier: "npm:~2.8.7"
     rollup: "npm:~2.67.3"
     rollup-plugin-terser: "npm:~7.0.2"
-    stylis: "npm:~4.1.3"
+    stylis: "npm:~4.3.1"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.24.1"
     typescript: "npm:~5.0.4"
@@ -8364,12 +8364,12 @@ __metadata:
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~2.8.7"
     rimraf: "npm:^3.0.2"
-    stylis: "npm:4.1.3"
+    stylis: "npm:~4.3.1"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.24.1"
     typescript: "npm:~5.0.4"
   peerDependencies:
-    stylis: 4.0.10
+    stylis: ~4.3.1
   languageName: unknown
   linkType: soft
 
@@ -11111,10 +11111,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/stylis@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "@types/stylis@npm:4.0.2"
-  checksum: 5461290afd6e7fbbd713f4896b4c586fa6f3072ef8addcb062feaf112a50168477df98ab474d9b603b19b879696aab6932c5f0bb3cda7472ab9c1622ee7fea60
+"@types/stylis@npm:~4.2.5":
+  version: 4.2.5
+  resolution: "@types/stylis@npm:4.2.5"
+  checksum: f8dde326432a7047b6684b96442f0e2ade2cfe8c29bf56217fb8cbbe4763997051fa9dc0f8dba4aeed2fddb794b4bc91feba913b780666b3adc28198ac7c63d4
   languageName: node
   linkType: hard
 
@@ -28568,10 +28568,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylis@npm:4.1.3, stylis@npm:~4.1.3":
-  version: 4.1.3
-  resolution: "stylis@npm:4.1.3"
-  checksum: 0065b6954f7007ded81598d8390c92682dd312f4d9a7f928e70190f716ee4019e29f5dd364016f8428b8ef9b5b6b950b2be717d76a7d813302cdbf1321084374
+"stylis@npm:~4.3.1":
+  version: 4.3.1
+  resolution: "stylis@npm:4.3.1"
+  checksum: 20b04044397c5c69e4b9f00b037159ba82b602c61d45f26d8def08577fd6ddc4b2853d86818548c1b404d29194a99b6495cca1733880afc845533ced843cb266
   languageName: node
   linkType: hard
 
