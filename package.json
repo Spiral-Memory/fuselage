@@ -22,9 +22,9 @@
     "clean": "yarn workspaces foreach -v --topological-dev run clean",
     "build": "yarn turbo run build",
     "lint": "yarn turbo run lint",
-    "lint-and-fix": "yarn workspaces foreach -v --topological-dev run lint-and-fix",
+    "lint-and-fix": "yarn workspaces foreach -Av --topological-dev run lint-and-fix",
     "test": "yarn turbo run test",
-    "docs": "yarn workspaces foreach -v --topological-dev run docs",
+    "docs": "yarn workspaces foreach -Av --topological-dev run docs",
     "build-storybook": "yarn turbo run build-storybook --cache-dir=\".turbo\"",
     "update-readme": "update-readme",
     "resolve-workspace-deps": "yarn workspace scripts run resolve-workspace-deps",
@@ -33,13 +33,13 @@
     "changeset": "changeset"
   },
   "devEngines": {
-    "node": "~14.21.3"
+    "node": "~20.10.0"
   },
   "volta": {
-    "node": "14.21.3",
-    "yarn": "1.22.19"
+    "node": "20.10.0",
+    "yarn": "4.0.2"
   },
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@4.0.2",
   "resolutions": {
     "@storybook/react-docgen-typescript-plugin@1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0": "patch:@storybook/react-docgen-typescript-plugin@npm%3A1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0#./.yarn/patches/@storybook-react-docgen-typescript-plugin-npm-1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0-b31cc57c40.patch"
   }
