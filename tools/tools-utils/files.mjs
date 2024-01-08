@@ -1,6 +1,6 @@
-import { lstat, readlink, readFile, writeFile, mkdir } from 'fs/promises';
-import { dirname, join } from 'path';
-import { promisify } from 'util';
+import { lstat, readlink, readFile, writeFile, mkdir } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import { promisify } from 'node:util';
 import rimraf from 'rimraf';
 import fg from 'fast-glob';
 import { encodeJson, decodeJson } from './json.mjs';
