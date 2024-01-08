@@ -66,5 +66,8 @@
     "testMatch": [
       "<rootDir>/src/**/*.spec.ts"
     ]
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }

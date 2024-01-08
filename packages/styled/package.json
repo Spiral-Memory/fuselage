@@ -53,5 +53,8 @@
   },
   "dependencies": {
     "@rocket.chat/css-in-js": "workspace:~"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }

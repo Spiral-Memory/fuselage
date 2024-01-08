@@ -78,5 +78,8 @@
   },
   "dependencies": {
     "use-sync-external-store": "~1.2.0"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }

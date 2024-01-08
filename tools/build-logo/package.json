@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "tools-utils": "workspace:~"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }
