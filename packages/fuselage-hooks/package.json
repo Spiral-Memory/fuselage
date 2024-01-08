@@ -69,8 +69,8 @@
     "rollup-plugin-terser": "~7.0.2",
     "testing-utils": "workspace:~",
     "ts-jest": "~29.1.0",
-    "typedoc": "~0.24.1",
-    "typescript": "~5.0.4"
+    "typedoc": "~0.25.7",
+    "typescript": "~5.3.3"
   },
   "peerDependencies": {
     "@rocket.chat/fuselage-tokens": "*",
