@@ -5,7 +5,7 @@
   "version": "0.31.25",
   "dependencies": {
     "outdent": "^0.8.0",
-    "zx": "~7.2.1"
+    "zx": "~7.2.3"
   },
   "volta": {
     "extends": "../../package.json"

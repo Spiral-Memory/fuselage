@@ -11,7 +11,7 @@
     "eslint": "~8.56.0",
     "prettier": "~3.1.1",
     "stylelint": "~16.1.0",
-    "zx": "~7.2.1"
+    "zx": "~7.2.3"
   },
   "volta": {
     "extends": "../../package.json"
