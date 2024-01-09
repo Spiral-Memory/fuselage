@@ -5186,6 +5186,7 @@ __metadata:
     "@rocket.chat/eslint-config-alt": "workspace:~"
     "@rocket.chat/fuselage": "workspace:~"
     "@rocket.chat/fuselage-hooks": "workspace:~"
+    "@rocket.chat/fuselage-polyfills": "workspace:~"
     "@rocket.chat/layout": "workspace:~"
     "@rocket.chat/prettier-config": "workspace:~"
     "@rocket.chat/styled": "workspace:~"
@@ -5412,7 +5413,7 @@ __metadata:
     "@rocket.chat/fuselage": "*"
     react: ~17.0.2
     react-dom: ~17.0.2
-    react-i18next: ~11.15.4
+    react-i18next: ~14.0.0
   languageName: unknown
   linkType: soft
 
