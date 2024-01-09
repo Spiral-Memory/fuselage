@@ -6912,7 +6912,7 @@ __metadata:
     "@changesets/changelog-github": "npm:~0.5.0"
     "@changesets/cli": "npm:~2.27.1"
     husky: "npm:~7.0.4"
-    hygen: "npm:~6.1.5"
+    hygen: "npm:~6.2.11"
     lint-staged: "npm:~15.2.0"
     turbo: "npm:~1.11.3"
     update-readme: "workspace:~"
@@ -12176,7 +12176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bl@npm:^4.0.3":
+"bl@npm:^4.0.3, bl@npm:^4.1.0":
   version: 4.1.0
   resolution: "bl@npm:4.1.0"
   dependencies:
@@ -13140,12 +13140,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cli-cursor@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "cli-cursor@npm:3.1.0"
+  dependencies:
+    restore-cursor: "npm:^3.1.0"
+  checksum: 2692784c6cd2fd85cfdbd11f53aea73a463a6d64a77c3e098b2b4697a20443f430c220629e1ca3b195ea5ac4a97a74c2ee411f3807abf6df2b66211fec0c0a29
+  languageName: node
+  linkType: hard
+
 "cli-cursor@npm:^4.0.0":
   version: 4.0.0
   resolution: "cli-cursor@npm:4.0.0"
   dependencies:
     restore-cursor: "npm:^4.0.0"
   checksum: ab3f3ea2076e2176a1da29f9d64f72ec3efad51c0960898b56c8a17671365c26e67b735920530eaf7328d61f8bd41c27f46b9cf6e4e10fe2fa44b5e8c0e392cc
+  languageName: node
+  linkType: hard
+
+"cli-spinners@npm:^2.5.0":
+  version: 2.9.2
+  resolution: "cli-spinners@npm:2.9.2"
+  checksum: a0a863f442df35ed7294424f5491fa1756bd8d2e4ff0c8736531d886cec0ece4d85e8663b77a5afaf1d296e3cbbebff92e2e99f52bbea89b667cbe789b994794
   languageName: node
   linkType: hard
 
@@ -14519,6 +14535,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"degit@npm:^2.8.4":
+  version: 2.8.4
+  resolution: "degit@npm:2.8.4"
+  bin:
+    degit: degit
+  checksum: d78d95da7e21cdfea05a913935153d8f777faa44e8c00a92ce7d48bf6b7500b13057c4c29090029b6d5f1759325a560de16ceb0abe68c26710d1e926b9bc66f9
+  languageName: node
+  linkType: hard
+
 "delayed-stream@npm:~1.0.0":
   version: 1.0.0
   resolution: "delayed-stream@npm:1.0.0"
@@ -15619,21 +15644,6 @@ __metadata:
   peerDependencies:
     eslint: ">=8.0.0"
   checksum: 0b4359b17f6e7805d0f86fdbfa877b08210164334c823a6e3ac425cbf67d31532722f06b20fb21a40828a31f0717077cc5bb851470354c40f4a8a9a984035724
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-prettier@npm:^4.0.0":
-  version: 4.2.1
-  resolution: "eslint-plugin-prettier@npm:4.2.1"
-  dependencies:
-    prettier-linter-helpers: "npm:^1.0.0"
-  peerDependencies:
-    eslint: ">=7.28.0"
-    prettier: ">=2.0.0"
-  peerDependenciesMeta:
-    eslint-config-prettier:
-      optional: true
-  checksum: d387f85dd1bfcb6bc6b794845fee6afb9ebb2375653de6bcde6e615892fb97f85121a7c012a4651b181fc09953bdf54c9bc70cab7ad297019d89ae87dd007e28
   languageName: node
   linkType: hard
 
@@ -17929,26 +17939,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hygen@npm:~6.1.5":
-  version: 6.1.5
-  resolution: "hygen@npm:6.1.5"
+"hygen@npm:~6.2.11":
+  version: 6.2.11
+  resolution: "hygen@npm:6.2.11"
   dependencies:
     "@types/node": "npm:^17.0.19"
     chalk: "npm:^4.1.2"
     change-case: "npm:^3.1.0"
     debug: "npm:^4.3.3"
+    degit: "npm:^2.8.4"
     ejs: "npm:^3.1.6"
     enquirer: "npm:^2.3.6"
-    eslint-plugin-prettier: "npm:^4.0.0"
     execa: "npm:^5.0.0"
     front-matter: "npm:^4.0.2"
     fs-extra: "npm:^10.0.0"
     ignore-walk: "npm:^4.0.1"
     inflection: "npm:^1.12.0"
+    ora: "npm:^5.0.0"
     yargs-parser: "npm:^21.0.0"
   bin:
     hygen: dist/bin.js
-  checksum: 5a89e3106e9fec947c914ebfc46fe12c122d88ccf487401a8ecf597000186b11049aa6c35d43f0fb972dd096c2ebc67526aa4946c8c257c9218d6b1b142840d1
+  checksum: 4db6d2688a7d5f68edc8bfce21c74f7e776a70bd42f0e7d58db08618462935de4b62b174e79c34286c2656c647c9abd51d18c98ceaeb7f50b89026646a4f0320
   languageName: node
   linkType: hard
 
@@ -18679,6 +18690,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-interactive@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "is-interactive@npm:1.0.0"
+  checksum: 824808776e2d468b2916cdd6c16acacebce060d844c35ca6d82267da692e92c3a16fdba624c50b54a63f38bdc4016055b6f443ce57d7147240de4f8cdabaf6f9
+  languageName: node
+  linkType: hard
+
 "is-lambda@npm:^1.0.1":
   version: 1.0.1
   resolution: "is-lambda@npm:1.0.1"
@@ -18897,6 +18915,13 @@ __metadata:
   version: 1.0.0
   resolution: "is-typedarray@npm:1.0.0"
   checksum: 4b433bfb0f9026f079f4eb3fbaa4ed2de17c9995c3a0b5c800bec40799b4b2a8b4e051b1ada77749deb9ded4ae52fe2096973f3a93ff83df1a5a7184a669478c
+  languageName: node
+  linkType: hard
+
+"is-unicode-supported@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "is-unicode-supported@npm:0.1.0"
+  checksum: a2aab86ee7712f5c2f999180daaba5f361bdad1efadc9610ff5b8ab5495b86e4f627839d085c6530363c6d6d4ecbde340fb8e54bdb83da4ba8e0865ed5513c52
   languageName: node
   linkType: hard
 
@@ -20371,6 +20396,16 @@ __metadata:
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: c08619c038846ea6ac754abd6dd29d2568aa705feb69339e836dfa8d8b09abbb2f859371e86863eda41848221f9af43714491467b5b0299122431e202bb0c532
+  languageName: node
+  linkType: hard
+
+"log-symbols@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "log-symbols@npm:4.1.0"
+  dependencies:
+    chalk: "npm:^4.1.0"
+    is-unicode-supported: "npm:^0.1.0"
+  checksum: fce1497b3135a0198803f9f07464165e9eb83ed02ceb2273930a6f8a508951178d8cf4f0378e9d28300a2ed2bc49050995d2bd5f53ab716bb15ac84d58c6ef74
   languageName: node
   linkType: hard
 
@@ -22541,6 +22576,23 @@ __metadata:
     prelude-ls: "npm:^1.2.1"
     type-check: "npm:^0.4.0"
   checksum: fa28d3016395974f7fc087d6bbf0ac7f58ac3489f4f202a377e9c194969f329a7b88c75f8152b33fb08794a30dcd5c079db6bb465c28151357f113d80bbf67da
+  languageName: node
+  linkType: hard
+
+"ora@npm:^5.0.0":
+  version: 5.4.1
+  resolution: "ora@npm:5.4.1"
+  dependencies:
+    bl: "npm:^4.1.0"
+    chalk: "npm:^4.1.0"
+    cli-cursor: "npm:^3.1.0"
+    cli-spinners: "npm:^2.5.0"
+    is-interactive: "npm:^1.0.0"
+    is-unicode-supported: "npm:^0.1.0"
+    log-symbols: "npm:^4.1.0"
+    strip-ansi: "npm:^6.0.0"
+    wcwidth: "npm:^1.0.1"
+  checksum: 8d071828f40090a8e1c6e8f350c6eb065808e9ab2b3e57fa37e0d5ae78cb46dac00117c8f12c3c8b8da2923454afbd8265e08c10b69881170c5b269f451e7fef
   languageName: node
   linkType: hard
 
@@ -25287,6 +25339,16 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 27bff19d8219385bb1e271066317e553cff18daa2a19db9598d94ae444417ef3f5aec19e86927872d6cb241d02649cfb35a4c0d9d10ef2afa6325bce8bc8d903
+  languageName: node
+  linkType: hard
+
+"restore-cursor@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "restore-cursor@npm:3.1.0"
+  dependencies:
+    onetime: "npm:^5.1.0"
+    signal-exit: "npm:^3.0.2"
+  checksum: f877dd8741796b909f2a82454ec111afb84eb45890eb49ac947d87991379406b3b83ff9673a46012fca0d7844bb989f45cc5b788254cf1a39b6b5a9659de0630
   languageName: node
   linkType: hard
 
