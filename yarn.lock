@@ -5286,7 +5286,7 @@ __metadata:
   dependencies:
     "@changesets/changelog-github": "npm:~0.5.0"
     "@changesets/cli": "npm:~2.27.1"
-    husky: "npm:~7.0.4"
+    husky: "npm:~8.0.3"
     hygen: "npm:~6.2.11"
     lint-staged: "npm:~15.2.0"
     turbo: "npm:~1.11.3"
@@ -15862,12 +15862,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:~7.0.4":
-  version: 7.0.4
-  resolution: "husky@npm:7.0.4"
+"husky@npm:~8.0.3":
+  version: 8.0.3
+  resolution: "husky@npm:8.0.3"
   bin:
     husky: lib/bin.js
-  checksum: 8fecb619ab924bd99b2c9ce494bff88e45369c1125e07a603dfacb4bd60ef86840e08c689794c476189183e6223f0ea93aadebf78e3508479453c219358ca787
+  checksum: b754cf70fdc97c3b60fec5b80056b9c11436464953b1691bf2b5dcf0081fb6685d2c5f47abb8b2b1c49f504aabea5321fdd6496f8b755d9f6e7525a493406abb
   languageName: node
   linkType: hard
 
