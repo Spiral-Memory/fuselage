@@ -1,6 +1,6 @@
 import breakpointTokens from '@rocket.chat/fuselage-tokens/breakpoints.json';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs';
-import type { Parameters } from '@storybook/addons';
+import type { Parameters } from '@storybook/react';
 import { themes } from '@storybook/theming';
 
 import logo from './logo.svg';
@@ -8,8 +8,8 @@ import manifest from '../package.json';
 
 import 'normalize.css/normalize.css';
 import '@rocket.chat/icons/dist/rocketchat.css';
-import '../src/index.scss';
 import '@rocket.chat/fuselage-polyfills';
+import '../src/index.scss';
 
 export const parameters: Parameters = {
   backgrounds: {
