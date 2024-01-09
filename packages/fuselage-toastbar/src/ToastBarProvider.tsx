@@ -16,7 +16,7 @@ const ToastBarProvider = ({ children }: ToastBarProps): ReactElement => {
 
   const contextValue = {
     dispatch: (
-      option: Omit<ToastBarPayload, 'id' | 'time'> & { time?: number },
+      option: Omit<ToastBarPayload, 'id' | 'time'> & { time?: number }
     ) =>
       setToasts((toasts) => [
         ...toasts,
@@ -41,8 +41,8 @@ const ToastBarProvider = ({ children }: ToastBarProps): ReactElement => {
             {} as Record<
               'top-start' | 'top-end' | 'bottom-start' | 'bottom-end',
               ToastBarPayload[]
-            >,
-          ),
+            >
+          )
         ).map(([zone, toasts]) => (
           <ToastBarZone
             key={zone}

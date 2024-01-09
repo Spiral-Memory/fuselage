@@ -9,6 +9,6 @@ it('renders without crashing', () => {
       <MessageMetrics.Reply />
       <MessageMetrics.Item />
       <MessageMetrics.Following name='bell' />
-    </MessageMetrics>,
+    </MessageMetrics>
   );
 });

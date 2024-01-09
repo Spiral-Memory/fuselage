@@ -34,10 +34,10 @@ export type PreviewBlock =
   | PreviewBlockWithPreview;
 
 export const isPreviewBlockWithThumb = (
-  previewBlock: PreviewBlock,
+  previewBlock: PreviewBlock
 ): previewBlock is PreviewBlockWithThumb => 'thumb' in previewBlock;
 
 export const isPreviewBlockWithPreview = (
-  previewBlock: PreviewBlock,
+  previewBlock: PreviewBlock
 ): previewBlock is PreviewBlockWithPreview =>
   'externalUrl' in previewBlock || 'oembedUrl' in previewBlock;

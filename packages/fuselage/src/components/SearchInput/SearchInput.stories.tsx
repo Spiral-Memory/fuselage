@@ -39,7 +39,7 @@ const Template: ComponentStory<typeof SearchInput> = (args) => (
 export const Default: ComponentStory<typeof SearchInput> = Template.bind({});
 
 export const WithIconAddon: ComponentStory<typeof SearchInput> = Template.bind(
-  {},
+  {}
 );
 WithIconAddon.args = {
   addon: <Icon name='send' size='x20' />,

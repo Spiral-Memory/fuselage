@@ -77,7 +77,7 @@ Disabled.args = {
 };
 
 export const WithPlaceholder: ComponentStory<typeof InputBox> = Template.bind(
-  {},
+  {}
 );
 WithPlaceholder.args = {
   placeholder: 'Placeholder',

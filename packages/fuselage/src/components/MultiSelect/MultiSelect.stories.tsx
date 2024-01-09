@@ -81,7 +81,7 @@ Disabled.args = {
 };
 
 export const CustomEmpty: ComponentStory<typeof MultiSelect> = Template.bind(
-  {},
+  {}
 );
 CustomEmpty.args = {
   customEmpty: 'Custom Empty Placeholder',

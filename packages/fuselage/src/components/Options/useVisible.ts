@@ -7,7 +7,7 @@ export const useVisible = (
     | typeof AnimatedVisibility.HIDDEN
     | typeof AnimatedVisibility.HIDING
     | typeof AnimatedVisibility.VISIBLE
-    | typeof AnimatedVisibility.UNHIDING = AnimatedVisibility.HIDDEN,
+    | typeof AnimatedVisibility.UNHIDING = AnimatedVisibility.HIDDEN
 ): [
   visible:
     | typeof AnimatedVisibility.HIDDEN

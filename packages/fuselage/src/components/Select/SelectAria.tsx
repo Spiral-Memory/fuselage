@@ -33,7 +33,7 @@ export const SelectAria = forwardRef(function SelectAria<T extends object>(
     value?: Key | null;
     onChange?: ((key: Key) => any) | undefined;
   } & React.AllHTMLAttributes<HTMLElement>,
-  outerRef: Ref<HTMLElement>,
+  outerRef: Ref<HTMLElement>
 ) {
   const state = useSelectState({
     isDisabled: disabled,

@@ -8,6 +8,6 @@ it('renders without crashing', () => {
     <MessageReactions>
       <MessageReactions.Reaction />
       <MessageReactions.Action />
-    </MessageReactions>,
+    </MessageReactions>
   );
 });

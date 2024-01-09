@@ -12,7 +12,7 @@ import { useDebouncedCallback } from './useDebouncedCallback';
  */
 export function useDebouncedUpdates<S>(
   pair: [state: S, dispatch: DispatchWithoutAction],
-  delay: number,
+  delay: number
 ): [
   S,
   DispatchWithoutAction & {
@@ -31,7 +31,7 @@ export function useDebouncedUpdates<S>(
  */
 export function useDebouncedUpdates<S, A>(
   pair: [state: S, dispatch: Dispatch<A>],
-  delay: number,
+  delay: number
 ): [
   S,
   Dispatch<A> & {
@@ -42,7 +42,7 @@ export function useDebouncedUpdates<S, A>(
 
 export function useDebouncedUpdates(
   [state, dispatch]: [state: unknown, dispatch: (action?: unknown) => void],
-  delay: number,
+  delay: number
 ) {
   return [state, useDebouncedCallback(dispatch, delay, [])];
 }

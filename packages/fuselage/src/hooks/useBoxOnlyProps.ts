@@ -14,7 +14,7 @@ export const useBoxOnlyProps = <
     elevation?: '0' | '1' | '2';
     htmlSize?: AllHTMLAttributes<HTMLElement>['size'];
     size?: AllHTMLAttributes<HTMLElement>['size'];
-  },
+  }
 ): T => {
   Object.entries(props).forEach(([key, value]) => {
     if (key.slice(0, 4) === 'rcx-') {
@@ -40,17 +40,17 @@ export const useBoxOnlyProps = <
     if (props.withRichContent === 'inlineWithoutBreaks') {
       props.className = prependClassName(
         props.className,
-        'rcx-box--with-inline-elements',
+        'rcx-box--with-inline-elements'
       );
     } else {
       props.className = prependClassName(
         props.className,
-        'rcx-box--with-inline-elements',
+        'rcx-box--with-inline-elements'
       );
 
       props.className = prependClassName(
         props.className,
-        'rcx-box--with-block-elements',
+        'rcx-box--with-block-elements'
       );
     }
   }

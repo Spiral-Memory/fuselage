@@ -58,7 +58,7 @@ export const Options = forwardRef(
       customEmpty,
       ...props
     }: OptionsProps,
-    ref: Ref<HTMLElement>,
+    ref: Ref<HTMLElement>
   ) => {
     const liRef = useRef<HTMLElement>(null);
 
@@ -110,7 +110,7 @@ export const Options = forwardRef(
               );
           }
         }),
-      [options, multiple, cursor, onSelect, OptionComponent],
+      [options, multiple, cursor, onSelect, OptionComponent]
     );
 
     return (
@@ -140,7 +140,7 @@ export const Options = forwardRef(
         </Tile>
       </Box>
     );
-  },
+  }
 );
 export const OptionContainer = forwardRef<
   HTMLElement,

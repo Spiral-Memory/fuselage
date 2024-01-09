@@ -9,7 +9,7 @@ export const withBoxStyling = <
     className?: string;
   },
 >(
-  Component: ComponentType<TProps>,
+  Component: ComponentType<TProps>
 ): ComponentType<TProps & Partial<StylingProps>> => {
   const WithBoxStyling = (props: TProps & Partial<StylingProps>) => {
     const propsWithoutStylingProps = useStylingProps(props);

@@ -14,7 +14,7 @@ import { useDebouncedUpdates } from './useDebouncedUpdates';
 
 export function useDebouncedState<S>(
   initialValue: S | (() => S),
-  delay: number,
+  delay: number
 ): [
   S,
   Dispatch<SetStateAction<S>> & {

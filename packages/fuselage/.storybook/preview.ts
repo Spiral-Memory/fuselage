@@ -50,7 +50,7 @@ export const parameters: Parameters = {
           type: 'desktop',
         },
       }),
-      {},
+      {}
     ),
   },
   darkMode: {

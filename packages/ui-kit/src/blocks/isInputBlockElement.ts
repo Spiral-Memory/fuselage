@@ -3,7 +3,7 @@ import { BlockElementType } from './BlockElementType';
 import type { InputBlock } from './layout/InputBlock';
 
 export const isInputBlockElement = (
-  block: BlockElement,
+  block: BlockElement
 ): block is InputBlock['element'] => {
   switch (block.type as InputBlock['element']['type']) {
     case BlockElementType.CHANNELS_SELECT:

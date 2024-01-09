@@ -40,7 +40,7 @@ export abstract class SurfaceRenderer<
 
   public render(
     blocks: readonly Block[],
-    conditions?: Conditions,
+    conditions?: Conditions
   ): TOutputObject[] {
     if (!Array.isArray(blocks)) {
       return [];
@@ -56,14 +56,14 @@ export abstract class SurfaceRenderer<
   public renderTextObject(
     textObject: TextObject,
     index: number,
-    context: BlockContext,
+    context: BlockContext
   ): TOutputObject | null {
     return renderTextObject(this, context)(textObject, index);
   }
 
   public renderActionsBlockElement(
     block: BlockElement,
-    index: number,
+    index: number
   ): TOutputObject | null {
     if (
       this.allowedLayoutBlockTypes.has(LayoutBlockType.ACTIONS) === false &&
@@ -80,14 +80,14 @@ export abstract class SurfaceRenderer<
     element: ActionsBlock['elements'][number],
     _context: BlockContext,
     _: undefined,
-    index: number,
+    index: number
   ): TOutputObject | null {
     return this.renderActionsBlockElement(element, index);
   }
 
   public renderContextBlockElement(
     block: TextObject | BlockElement,
-    index: number,
+    index: number
   ): TOutputObject | null {
     if (
       this.allowedLayoutBlockTypes.has(LayoutBlockType.CONTEXT) === false &&
@@ -108,14 +108,14 @@ export abstract class SurfaceRenderer<
     element: ContextBlock['elements'][number],
     _context: BlockContext,
     _: undefined,
-    index: number,
+    index: number
   ): TOutputObject | null {
     return this.renderContextBlockElement(element, index);
   }
 
   public renderInputBlockElement(
     block: BlockElement,
-    index: number,
+    index: number
   ): TOutputObject | null {
     if (
       this.allowedLayoutBlockTypes.has(LayoutBlockType.INPUT) === false &&
@@ -132,14 +132,14 @@ export abstract class SurfaceRenderer<
     element: InputBlock['element'],
     _context: BlockContext,
     _: undefined,
-    index: number,
+    index: number
   ): TOutputObject | null {
     return this.renderInputBlockElement(element, index);
   }
 
   public renderSectionAccessoryBlockElement(
     block: BlockElement,
-    index: number,
+    index: number
   ): TOutputObject | null {
     if (
       this.allowedLayoutBlockTypes.has(LayoutBlockType.SECTION) === false &&
@@ -156,7 +156,7 @@ export abstract class SurfaceRenderer<
     element: Exclude<SectionBlock['accessory'], undefined>,
     _context: BlockContext,
     _: undefined,
-    index: number,
+    index: number
   ): TOutputObject | null {
     return this.renderSectionAccessoryBlockElement(element, index);
   }
@@ -165,7 +165,7 @@ export abstract class SurfaceRenderer<
   public plainText(
     element: PlainText,
     context: BlockContext = BlockContext.NONE,
-    index = 0,
+    index = 0
   ): TOutputObject | null {
     return this[TextObjectType.PLAIN_TEXT](element, context, index);
   }
@@ -174,7 +174,7 @@ export abstract class SurfaceRenderer<
   public text(
     textObject: TextObject,
     context: BlockContext = BlockContext.NONE,
-    index = 0,
+    index = 0
   ): TOutputObject | null {
     switch (textObject.type) {
       case TextObjectType.PLAIN_TEXT:
@@ -191,12 +191,12 @@ export abstract class SurfaceRenderer<
   public abstract plain_text(
     textObject: PlainText,
     context: BlockContext,
-    index: number,
+    index: number
   ): TOutputObject | null;
 
   public abstract mrkdwn(
     textObject: Markdown,
     context: BlockContext,
-    index: number,
+    index: number
   ): TOutputObject | null;
 }

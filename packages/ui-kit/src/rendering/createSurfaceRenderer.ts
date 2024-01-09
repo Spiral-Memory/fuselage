@@ -7,7 +7,7 @@ export const createSurfaceRenderer =
   <TAllowedLayoutBlock extends RenderableLayoutBlock>() =>
   <TOutputObject>(
     surfaceRenderer: SurfaceRenderer<TOutputObject, TAllowedLayoutBlock>,
-    conditions?: Conditions,
+    conditions?: Conditions
   ) =>
   (blocks: readonly { type: string }[]): TOutputObject[] =>
     surfaceRenderer.render(blocks as Block[], conditions);

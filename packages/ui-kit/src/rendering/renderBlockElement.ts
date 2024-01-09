@@ -5,7 +5,7 @@ import type { BlockElement } from '../blocks/BlockElement';
 
 const getBlockElementRenderer = <T>(
   renderers: BlockRenderers<T>,
-  type: BlockElement['type'],
+  type: BlockElement['type']
 ): BlockElementRenderer<T> | undefined => {
   const renderer = renderers[type] as BlockElementRenderer<T> | undefined;
 

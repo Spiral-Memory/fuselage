@@ -40,9 +40,9 @@ export const ButtonGroup = ({
       (childProps: { className: string | string[] }) => ({
         className: appendClassName(
           childProps.className,
-          'rcx-button-group__item',
+          'rcx-button-group__item'
         ),
-      }),
+      })
     )}
   </Box>
 );

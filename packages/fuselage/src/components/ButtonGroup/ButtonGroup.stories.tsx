@@ -81,7 +81,7 @@ Small.args = {
 };
 
 export const Wrap: ComponentStory<typeof ButtonGroup> = TemplateMultiple.bind(
-  {},
+  {}
 );
 Wrap.args = {
   wrap: true,
@@ -98,7 +98,7 @@ Vertical.args = {
 };
 
 export const VerticalLarge: ComponentStory<typeof ButtonGroup> = Template.bind(
-  {},
+  {}
 );
 VerticalLarge.args = {
   vertical: true,
@@ -106,7 +106,7 @@ VerticalLarge.args = {
 };
 
 export const VerticalSmall: ComponentStory<typeof ButtonGroup> = Template.bind(
-  {},
+  {}
 );
 VerticalSmall.args = {
   vertical: true,
@@ -121,7 +121,7 @@ VerticalStretch.args = {
 };
 
 export const AlignedAtStart: ComponentStory<typeof ButtonGroup> = Template.bind(
-  {},
+  {}
 );
 AlignedAtStart.args = {
   align: 'start',
@@ -134,7 +134,7 @@ AlignedAtCenter.args = {
 };
 
 export const AlignedAtEnd: ComponentStory<typeof ButtonGroup> = Template.bind(
-  {},
+  {}
 );
 AlignedAtEnd.args = {
   align: 'end',

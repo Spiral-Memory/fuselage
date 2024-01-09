@@ -10,6 +10,6 @@ it('renders without crashing', () => {
       <MessageToolbox.Item icon='emoji' />
       <MessageToolbox.Item icon='thread' />
       <MessageToolbox.Item icon='menu' />
-    </MessageToolbox>,
+    </MessageToolbox>
   );
 });

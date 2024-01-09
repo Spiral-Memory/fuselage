@@ -34,7 +34,7 @@ export const color = (r: number, g: number, b: number, a = 255): Color => ({
 
 export const heading = (
   value: Heading['value'],
-  level: Heading['level'] = 1,
+  level: Heading['level'] = 1
 ): Heading => ({
   type: 'HEADING',
   level,
@@ -43,7 +43,7 @@ export const heading = (
 
 export const code = (
   value: Code['value'],
-  language?: Code['language'],
+  language?: Code['language']
 ): Code => ({
   type: 'CODE',
   language: language || 'none',
@@ -167,7 +167,7 @@ export const emoticon = (emoticon: string, shortCode: string): Emoji => ({
 const joinEmoji = (
   current: Inlines,
   previous: Inlines | undefined,
-  next: Inlines | undefined,
+  next: Inlines | undefined
 ): Inlines => {
   if (current.type !== 'EMOJI' || !current.value || (!previous && !next)) {
     return current;
@@ -195,7 +195,7 @@ const joinEmoji = (
 };
 
 export const reducePlainTexts = (
-  values: Paragraph['value'],
+  values: Paragraph['value']
 ): Paragraph['value'] =>
   values.reduce(
     (result, item, index) => {
@@ -212,7 +212,7 @@ export const reducePlainTexts = (
 
       return [...result, current];
     },
-    [] as Paragraph['value'],
+    [] as Paragraph['value']
   );
 export const lineBreak = (): LineBreak => ({
   type: 'LINE_BREAK',

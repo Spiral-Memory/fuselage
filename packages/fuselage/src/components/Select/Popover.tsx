@@ -20,7 +20,7 @@ export function Popover(props: PopoverProps) {
       containerPadding: 8,
       popoverRef,
     },
-    state,
+    state
   );
 
   return (

@@ -19,7 +19,7 @@ export const Dropdown = forwardRef(function Dropdown<
     placement?: UsePositionOptions['placement'];
     children: ReactNode;
   },
-  ref: Ref<R>,
+  ref: Ref<R>
 ) {
   const notSmall = useMediaQuery('(min-width: 500px)');
 

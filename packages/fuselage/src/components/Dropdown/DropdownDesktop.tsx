@@ -15,7 +15,7 @@ export const DropdownDesktop = forwardRef(function DropdownDesktop<
     maxWidth?: string;
     style?: CSSProperties;
   },
-  ref: Ref<R>,
+  ref: Ref<R>
 ) {
   return (
     <Tile

@@ -3,7 +3,7 @@ import { BlockElementType } from './BlockElementType';
 import type { ActionsBlock } from './layout/ActionsBlock';
 
 export const isActionsBlockElement = (
-  block: BlockElement,
+  block: BlockElement
 ): block is ActionsBlock['elements'][number] => {
   switch (block.type as ActionsBlock['elements'][number]['type']) {
     case BlockElementType.BUTTON:

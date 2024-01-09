@@ -21,7 +21,7 @@ type PaginatedMultiSelectFilteredProps = Omit<
   value?: PaginatedMultiSelectOption[];
   onChange: (values: PaginatedMultiSelectOption[]) => void;
   renderOptions?: (
-    props: ComponentProps<typeof OptionsPaginated>,
+    props: ComponentProps<typeof OptionsPaginated>
   ) => ReactElement | null;
   anchor?: any;
   filter?: string;
@@ -44,7 +44,7 @@ export const PaginatedMultiSelectFiltered = ({
           filter,
           ...props
         }: ComponentProps<typeof InputBox>,
-        ref: Ref<HTMLInputElement>,
+        ref: Ref<HTMLInputElement>
       ) => (
         <Flex.Item grow={1}>
           <InputBox.Input
@@ -58,9 +58,9 @@ export const PaginatedMultiSelectFiltered = ({
             rcx-input-box--undecorated
           />
         </Flex.Item>
-      ),
+      )
     ),
-    [],
+    []
   );
 
   return (

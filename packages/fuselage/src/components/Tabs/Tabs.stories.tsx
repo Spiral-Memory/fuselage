@@ -48,7 +48,7 @@ Disabled.args = {
 };
 
 export const SelectedAndDisabled: ComponentStory<typeof Tabs> = Template.bind(
-  {},
+  {}
 );
 SelectedAndDisabled.args = {
   disabled: true,

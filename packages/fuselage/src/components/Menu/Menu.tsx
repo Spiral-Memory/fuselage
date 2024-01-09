@@ -35,7 +35,7 @@ const mapOptions = (options: MenuProps['options']): OptionType[] =>
       undefined,
       disabled,
       type,
-    ],
+    ]
   );
 
 export const Menu = ({
@@ -77,7 +77,7 @@ export const Menu = ({
       reset();
       hide();
     },
-    [hide, reset, options],
+    [hide, reset, options]
   );
 
   useEffect(() => {

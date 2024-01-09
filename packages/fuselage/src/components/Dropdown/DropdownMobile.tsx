@@ -12,7 +12,7 @@ export const DropdownMobile = forwardRef(function DropdownMobile<
   }: {
     children: ReactNode;
   },
-  ref: Ref<R>,
+  ref: Ref<R>
 ) {
   return (
     <Tile

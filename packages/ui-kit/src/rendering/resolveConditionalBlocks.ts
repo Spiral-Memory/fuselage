@@ -5,7 +5,7 @@ import type { ConditionalBlock } from '../blocks/layout/ConditionalBlock';
 
 const conditionsMatch = (
   conditions: Conditions | undefined = undefined,
-  filters: ConditionalBlock['when'] = {},
+  filters: ConditionalBlock['when'] = {}
 ): boolean => {
   if (!conditions) {
     return true;

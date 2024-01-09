@@ -21,11 +21,11 @@ export default {
 } as ComponentMeta<typeof PaginatedMultiSelectFiltered>;
 
 const Template: ComponentStory<typeof PaginatedMultiSelectFiltered> = (
-  args,
+  args
 ) => <PaginatedMultiSelectFiltered {...args} />;
 
 export const Normal: ComponentStory<typeof PaginatedMultiSelectFiltered> = (
-  args,
+  args
 ) => {
   const [, updateArgs] = useArgs();
 

@@ -14,7 +14,7 @@ export const useAutoFocus = <
   T extends { focus: (options?: FocusOptions) => void },
 >(
   isFocused = true,
-  options?: FocusOptions,
+  options?: FocusOptions
 ): Ref<T> => {
   const elementRef = useRef<T>(null);
 

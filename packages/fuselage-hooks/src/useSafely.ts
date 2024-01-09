@@ -19,14 +19,14 @@ export function useSafely([state, dispatcher]: [
   dispatch: (action?: unknown) => void,
 ]) {
   const dispatcherRef = useRef<((action?: unknown) => void) | undefined>(
-    dispatcher,
+    dispatcher
   );
 
   useEffect(
     () => () => {
       dispatcherRef.current = undefined;
     },
-    [],
+    []
   );
 
   const safeDispatcher = useCallback((action) => {

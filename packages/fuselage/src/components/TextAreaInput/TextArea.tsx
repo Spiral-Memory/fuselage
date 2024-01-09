@@ -10,7 +10,7 @@ type TextAreaInputProps = Omit<ComponentProps<typeof InputBox>, 'type'> & {
 
 export const TextAreaInput = forwardRef(function TextAreaInput(
   props: TextAreaInputProps,
-  ref: Ref<HTMLTextAreaElement>,
+  ref: Ref<HTMLTextAreaElement>
 ) {
   return <InputBox type='textarea' ref={ref} {...props} />;
 });

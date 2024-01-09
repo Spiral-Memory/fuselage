@@ -4,7 +4,7 @@ import { appendClassName } from '../../helpers/appendClassName';
 import { useStyle } from '../../hooks/useStyle';
 
 export const useStylingProps = <TProps extends { className?: string }>(
-  originalProps: TProps & Partial<StylingProps>,
+  originalProps: TProps & Partial<StylingProps>
 ): TProps => {
   const [props, styles] = extractStylingProps(originalProps);
 

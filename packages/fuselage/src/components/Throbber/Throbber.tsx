@@ -47,7 +47,7 @@ export const Throbber = forwardRef(function Throbber(
     inheritColor,
     ...props
   }: ThrobberProps,
-  ref: Ref<HTMLElement>,
+  ref: Ref<HTMLElement>
 ) {
   return (
     <Box rcx-throbber ref={ref} {...props}>

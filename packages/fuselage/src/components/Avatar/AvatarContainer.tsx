@@ -28,7 +28,7 @@ export const AvatarContainer = ({
     props.className,
     ['rcx-box rcx-box--full rcx-avatar', size && `rcx-avatar--${size}`]
       .filter(Boolean)
-      .join(' '),
+      .join(' ')
   );
 
   return <figure {...props}>{children}</figure>;

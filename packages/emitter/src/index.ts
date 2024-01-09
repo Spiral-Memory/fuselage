@@ -49,21 +49,21 @@ export interface IEmitter<EventMap extends DefaultEventMap = DefaultEventMap> {
     EventType extends AnyEventTypeOf<EventMap> = EventTypeOf<EventMap, T>,
   >(
     type: EventType,
-    handler: EventHandlerOf<EventMap, EventType>,
+    handler: EventHandlerOf<EventMap, EventType>
   ): OffCallbackHandler;
   once<
     T extends AnyEventOf<EventMap>,
     EventType extends AnyEventTypeOf<EventMap> = EventTypeOf<EventMap, T>,
   >(
     type: EventType,
-    handler: EventHandlerOf<EventMap, EventType>,
+    handler: EventHandlerOf<EventMap, EventType>
   ): OffCallbackHandler;
   off<
     T extends AnyEventOf<EventMap>,
     EventType extends AnyEventTypeOf<EventMap> = EventTypeOf<EventMap, T>,
   >(
     type: EventType,
-    handler: EventHandlerOf<EventMap, EventType>,
+    handler: EventHandlerOf<EventMap, EventType>
   ): void;
   emit<
     T extends AnyEventOf<EventMap>,
@@ -137,7 +137,7 @@ export class Emitter<EventMap extends DefaultEventMap = DefaultEventMap>
     EventType extends AnyEventTypeOf<EventMap> = EventTypeOf<EventMap, T>,
   >(
     type: EventType,
-    handler: EventHandlerOf<EventMap, EventType>,
+    handler: EventHandlerOf<EventMap, EventType>
   ): OffCallbackHandler;
 
   once(type: keyof EventMap, handler: (...args: any[]) => void) {
@@ -169,7 +169,7 @@ export class Emitter<EventMap extends DefaultEventMap = DefaultEventMap>
 
     handlers.splice(
       handlers.findIndex((callback) => callback === handler) >>> 0,
-      1,
+      1
     );
 
     if (handlers.length === 0) {

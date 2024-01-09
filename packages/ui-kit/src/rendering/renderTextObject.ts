@@ -5,7 +5,7 @@ import type { TextObject } from '../blocks/TextObject';
 
 const getTextObjectRenderer = <T>(
   renderers: BlockRenderers<T>,
-  type: TextObject['type'],
+  type: TextObject['type']
 ): TextObjectRenderer<T> | undefined => {
   const renderer = renderers[type] as TextObjectRenderer<T> | undefined;
 

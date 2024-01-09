@@ -51,7 +51,7 @@ const Menu = <T extends object>({
 
   const { buttonProps } = useButton(
     { ...menuTriggerProps, ...{ preventFocusOnPress: true } },
-    ref,
+    ref
   );
 
   const { large, medium, tiny, mini } = props;

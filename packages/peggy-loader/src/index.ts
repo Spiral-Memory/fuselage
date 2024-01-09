@@ -22,7 +22,7 @@ type Options = BuildOptionsBase &
 
 function peggyLoader(
   this: LoaderContext<Options>,
-  grammarContent: string,
+  grammarContent: string
 ): string {
   const options: Options = {
     format: 'commonjs',

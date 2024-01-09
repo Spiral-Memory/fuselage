@@ -7,5 +7,5 @@ export type BlockElementRenderer<
 > = (
   blockElement: Block,
   context: BlockContext,
-  index: number,
+  index: number
 ) => OutputElement | null;

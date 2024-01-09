@@ -5,7 +5,7 @@ type T = keyof HTMLElementTagNameMap;
 export const createAnchor: {
   (
     id: string,
-    tag?: T,
+    tag?: T
   ): T extends undefined
     ? HTMLElementTagNameMap['div']
     : HTMLElementTagNameMap[T];
