@@ -17,9 +17,9 @@ jobs:
     outputs:
       branch-name: ${{ steps.set-branch-name.outputs.branch-name }}
     steps:
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         with:
-          node-version: "14.21.3"
+          node-version: "20.10.0"
       - uses: actions/checkout@v2
       - name: Turbo Cache
         id: turbo-cache
@@ -68,9 +68,9 @@ jobs:
     needs:
       - build-and-test
     steps:
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         with:
-          node-version: "14.21.3"
+          node-version: "20.10.0"
           registry-url: "https://registry.npmjs.org"
           scope: "@rocket.chat"
       - uses: actions/checkout@v2
