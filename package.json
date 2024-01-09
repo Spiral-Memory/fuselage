@@ -13,7 +13,7 @@
     "lint-staged": "~15.2.0",
     "turbo": "~1.11.3",
     "update-readme": "workspace:~",
-    "webpack": "~5.78.0"
+    "webpack": "~5.89.0"
   },
   "scripts": {
     "postinstall": "husky install",
