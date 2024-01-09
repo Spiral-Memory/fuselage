@@ -1700,12 +1700,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.20.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.20.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.22.15
   resolution: "@babel/runtime@npm:7.22.15"
   dependencies:
     regenerator-runtime: "npm:^0.14.0"
   checksum: 9670da63b77ea6d8234117c55a6d9888be5cf220b91a5954d7faefe7a537e06fa8992e11d36b7cff2ab0ef5301fe6effb3d41bec8b4e0bae10d386b7c377568b
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.23.2":
+  version: 7.23.8
+  resolution: "@babel/runtime@npm:7.23.8"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: ec8f1967a36164da6cac868533ffdff97badd76d23d7d820cc84f0818864accef972f22f9c6a710185db1e3810e353fc18c3da721e5bb3ee8bc61bdbabce03ff
   languageName: node
   linkType: hard
 
@@ -5611,7 +5620,7 @@ __metadata:
     prettier: "npm:~3.1.1"
     prettier-plugin-pegjs: "npm:~2.0.2"
     rimraf: "npm:~5.0.5"
-    tldts: "npm:~5.7.112"
+    tldts: "npm:~6.1.2"
     ts-jest: "npm:~29.1.1"
     ts-loader: "npm:~9.5.1"
     typedoc: "npm:~0.25.7"
@@ -5674,7 +5683,7 @@ __metadata:
     "@types/react-dom": "npm:^17.0.19"
     countries-list: "npm:~3.0.6"
     eslint: "npm:~8.56.0"
-    i18next: "npm:~21.6.16"
+    i18next: "npm:~23.7.16"
     jest: "npm:~29.7.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
@@ -15994,12 +16003,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:~21.6.16":
-  version: 21.6.16
-  resolution: "i18next@npm:21.6.16"
+"i18next@npm:~23.7.16":
+  version: 23.7.16
+  resolution: "i18next@npm:23.7.16"
   dependencies:
-    "@babel/runtime": "npm:^7.17.2"
-  checksum: da3e03b0cd330fcb7123a985dad6ca67b5b8d216f6a781e5c1c470b0808e0cf58177ceda6da8c5de42dbfaec6897d71d5b22327abc2e38f95f2f615b399b994a
+    "@babel/runtime": "npm:^7.23.2"
+  checksum: 77e74c07a73316f6fb6678a5a3e8ce58a6e66be457dd1ccd23941e9fc57ad8e1da55193fa6328c70b86073337b776cd267f3c13c6309f548b3116f27a1e41787
   languageName: node
   linkType: hard
 
@@ -25334,21 +25343,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tldts-core@npm:^5.7.112":
-  version: 5.7.112
-  resolution: "tldts-core@npm:5.7.112"
-  checksum: 8be0a4bc0233755e8f1839c2ec5476e471d2bbc1c37d1b8c67b85ce4c0ebc11214e46efd508d377e4177516ab08fa08355f8adf4771cb9e23824045717eb08c3
+"tldts-core@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "tldts-core@npm:6.1.2"
+  checksum: 9ae2f1e0b842d8206daf7c832d2b82a6feba744124df5884ea9f2a49533fb91dc40b400e53190315717b11d2b441a749892d045edf4978c74fc4e89a955dd53e
   languageName: node
   linkType: hard
 
-"tldts@npm:~5.7.112":
-  version: 5.7.112
-  resolution: "tldts@npm:5.7.112"
+"tldts@npm:~6.1.2":
+  version: 6.1.2
+  resolution: "tldts@npm:6.1.2"
   dependencies:
-    tldts-core: "npm:^5.7.112"
+    tldts-core: "npm:^6.1.2"
   bin:
     tldts: bin/cli.js
-  checksum: feb600abb1ec659f40c5946d83b099a521fd9e64fe7122de6b191852b5416c9445c2410f3629d0a9b307a4381c2e8cc70fe4ea425e773d9eee38c5055c38fad0
+  checksum: 1abac96e56519b5ba074a5f379373ac6827877d7767994e50bb54b2661449b24d87d7c61e288f11e1a30065c08ace9f1f97359d0952cd73f0480de08584d0747
   languageName: node
   linkType: hard
 

@@ -77,7 +77,7 @@
     "webpack-cli": "~5.1.4"
   },
   "dependencies": {
-    "tldts": "~5.7.112"
+    "tldts": "~6.1.2"
   },
   "volta": {
     "extends": "../../package.json"
