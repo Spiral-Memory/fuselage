@@ -59,8 +59,8 @@
     "@storybook/react": "~6.5.16",
     "@storybook/theming": "~6.5.16",
     "@types/jest": "~29.5.11",
-    "@types/react": "~17.0.57",
-    "@types/react-dom": "^17.0.19",
+    "@types/react": "~17.0.74",
+    "@types/react-dom": "~17.0.25",
     "eslint": "~8.56.0",
     "jest": "~29.7.0",
     "lint-all": "workspace:~",
@@ -78,8 +78,8 @@
     "@rocket.chat/fuselage-hooks": "*",
     "@rocket.chat/fuselage-polyfills": "*",
     "@rocket.chat/styled": "*",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "~17.0.2",
+    "react-dom": "~17.0.2"
   },
   "eslintConfig": {
     "extends": "@rocket.chat/eslint-config-alt/typescript",

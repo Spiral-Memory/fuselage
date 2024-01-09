@@ -5264,8 +5264,8 @@ __metadata:
     "@testing-library/react-hooks": "npm:~8.0.1"
     "@testing-library/user-event": "npm:~14.5.2"
     "@types/jest": "npm:~29.5.11"
-    "@types/react": "npm:~17.0.57"
-    "@types/react-dom": "npm:^17.0.19"
+    "@types/react": "npm:~17.0.74"
+    "@types/react-dom": "npm:~17.0.25"
     "@types/resize-observer-browser": "npm:~0.1.11"
     "@types/use-sync-external-store": "npm:~0.0.6"
     eslint: "npm:~8.56.0"
@@ -5274,7 +5274,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
-    react: "npm:^17.0.2"
+    react: "npm:~17.0.2"
     rimraf: "npm:~5.0.5"
     rollup: "npm:~4.9.4"
     rollup-plugin-terser: "npm:~7.0.2"
@@ -5285,7 +5285,7 @@ __metadata:
     use-sync-external-store: "npm:~1.2.0"
   peerDependencies:
     "@rocket.chat/fuselage-tokens": "*"
-    react: ^17.0.2
+    react: ~17.0.2
   languageName: unknown
   linkType: soft
 
@@ -5340,8 +5340,8 @@ __metadata:
     "@storybook/react": "npm:~6.5.16"
     "@storybook/theming": "npm:~6.5.16"
     "@types/jest": "npm:~29.5.11"
-    "@types/react": "npm:~17.0.57"
-    "@types/react-dom": "npm:^17.0.19"
+    "@types/react": "npm:~17.0.74"
+    "@types/react-dom": "npm:~17.0.25"
     eslint: "npm:~8.56.0"
     jest: "npm:~29.7.0"
     lint-all: "workspace:~"
@@ -5358,8 +5358,8 @@ __metadata:
     "@rocket.chat/fuselage-hooks": "*"
     "@rocket.chat/fuselage-polyfills": "*"
     "@rocket.chat/styled": "*"
-    react: ^17.0.2
-    react-dom: ^17.0.2
+    react: ~17.0.2
+    react-dom: ~17.0.2
   languageName: unknown
   linkType: soft
 
@@ -5425,7 +5425,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:~6.2.0"
     "@testing-library/react": "npm:~12.1.5"
     "@testing-library/user-event": "npm:~14.5.2"
-    "@types/invariant": "npm:^2.2.35"
+    "@types/invariant": "npm:~2.2.37"
     "@types/jest": "npm:~29.5.11"
     "@types/jest-axe": "npm:~3.5.9"
     autoprefixer: "npm:~10.4.16"
@@ -5438,7 +5438,7 @@ __metadata:
     eslint: "npm:~8.56.0"
     eslint-mdx: "npm:~2.3.2"
     eslint-plugin-mdx: "npm:~2.3.2"
-    invariant: "npm:^2.2.4"
+    invariant: "npm:~2.2.4"
     jest: "npm:~29.7.0"
     jest-axe: "npm:~8.0.0"
     lint-all: "workspace:~"
@@ -5455,10 +5455,10 @@ __metadata:
     postcss-scss: "npm:~4.0.9"
     postcss-svg: "npm:~3.0.0"
     prettier: "npm:~3.1.1"
-    react: "npm:^17.0.2"
+    react: "npm:~17.0.2"
     react-aria: "npm:~3.23.1"
-    react-dom: "npm:^17.0.2"
-    react-keyed-flatten-children: "npm:^1.3.0"
+    react-dom: "npm:~17.0.2"
+    react-keyed-flatten-children: "npm:~3.0.0"
     react-stately: "npm:~3.17.0"
     react-virtuoso: "npm:~3.1.5"
     resolve-url-loader: "npm:~5.0.0"
@@ -5483,8 +5483,8 @@ __metadata:
     "@rocket.chat/fuselage-hooks": "*"
     "@rocket.chat/fuselage-polyfills": "*"
     "@rocket.chat/icons": "*"
-    react: ^17.0.2
-    react-dom: ^17.0.2
+    react: ~17.0.2
+    react-dom: ~17.0.2
     react-virtuoso: 1.2.4
   languageName: unknown
   linkType: soft
@@ -5523,8 +5523,8 @@ __metadata:
     "@storybook/react": "npm:~6.5.16"
     "@storybook/theming": "npm:~6.5.16"
     "@types/jest": "npm:~29.5.11"
-    "@types/react": "npm:^17"
-    "@types/react-dom": "npm:^17"
+    "@types/react": "npm:~17.0.74"
+    "@types/react-dom": "npm:~17.0.25"
     eslint: "npm:~8.56.0"
     jest: "npm:~29.7.0"
     lint-all: "workspace:~"
@@ -5541,8 +5541,8 @@ __metadata:
     typescript: "npm:~5.3.3"
   peerDependencies:
     "@rocket.chat/fuselage": "*"
-    react: 17.0.2
-    react-dom: 17.0.2
+    react: ~17.0.2
+    react-dom: ~17.0.2
     react-i18next: ~11.15.4
   languageName: unknown
   linkType: soft
@@ -5557,8 +5557,8 @@ __metadata:
     "@rocket.chat/prettier-config": "workspace:~"
     "@rocket.chat/styled": "workspace:~"
     "@types/jest": "npm:~29.5.11"
-    "@types/react": "npm:~17.0.57"
-    "@types/react-dom": "npm:^17.0.19"
+    "@types/react": "npm:~17.0.74"
+    "@types/react-dom": "npm:~17.0.25"
     build-logo: "workspace:~"
     eslint: "npm:~8.56.0"
     jest: "npm:~29.7.0"
@@ -5566,15 +5566,15 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
-    react: "npm:^17.0.2"
-    react-dom: "npm:^17.0.2"
+    react: "npm:~17.0.2"
+    react-dom: "npm:~17.0.2"
     rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.1"
     typedoc: "npm:~0.25.7"
     typescript: "npm:~5.3.3"
   peerDependencies:
-    react: 17.0.2
-    react-dom: 17.0.2
+    react: ~17.0.2
+    react-dom: ~17.0.2
   languageName: unknown
   linkType: soft
 
@@ -5679,8 +5679,8 @@ __metadata:
     "@storybook/react": "npm:~6.5.16"
     "@storybook/theming": "npm:~6.5.16"
     "@types/jest": "npm:~29.5.11"
-    "@types/react": "npm:~17.0.57"
-    "@types/react-dom": "npm:^17.0.19"
+    "@types/react": "npm:~17.0.74"
+    "@types/react-dom": "npm:~17.0.25"
     countries-list: "npm:~3.0.6"
     eslint: "npm:~8.56.0"
     i18next: "npm:~23.7.16"
@@ -5689,8 +5689,8 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
-    react: "npm:^17.0.2"
-    react-dom: "npm:^17.0.2"
+    react: "npm:~17.0.2"
+    react-dom: "npm:~17.0.2"
     react-hook-form: "npm:~7.27.1"
     react-i18next: "npm:~11.15.7"
     rimraf: "npm:~5.0.5"
@@ -5706,8 +5706,8 @@ __metadata:
     "@rocket.chat/layout": "*"
     "@rocket.chat/logo": "*"
     "@rocket.chat/styled": "*"
-    react: 17.0.2
-    react-dom: 17.0.2
+    react: ~17.0.2
+    react-dom: ~17.0.2
     react-i18next: ~11.15.4
   languageName: unknown
   linkType: soft
@@ -5747,7 +5747,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     prettier: "npm:~3.1.1"
   peerDependencies:
-    prettier: ~2.7.1
+    prettier: ~3.1.1
   languageName: unknown
   linkType: soft
 
@@ -8201,10 +8201,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/invariant@npm:^2.2.35":
-  version: 2.2.35
-  resolution: "@types/invariant@npm:2.2.35"
-  checksum: af1b624057c89789ed0917838fea3d42bb0c101cc22b829a24d8777c678be3bc79d6ae05992a13bdf607b94731262467a2e62a809602ea1f7eea5e8c2242660d
+"@types/invariant@npm:~2.2.37":
+  version: 2.2.37
+  resolution: "@types/invariant@npm:2.2.37"
+  checksum: dd6ee07af8516d21c868f95fd96c601c50a231e69c2df69360cb491b5858c76cf9b5a646df166cb4197b5078ca824da3dd90d6142d01a3cefc1176c57278b129
   languageName: node
   linkType: hard
 
@@ -8471,7 +8471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:~17.0.20":
+"@types/react-dom@npm:~17.0.25":
   version: 17.0.25
   resolution: "@types/react-dom@npm:17.0.25"
   dependencies:
@@ -8480,14 +8480,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:~17.0.57":
-  version: 17.0.57
-  resolution: "@types/react@npm:17.0.57"
+"@types/react@npm:~17.0.74":
+  version: 17.0.74
+  resolution: "@types/react@npm:17.0.74"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 44e499c50c9ab19bf188e75ffbeb89e05619bb78da3124a99819bad519c64260690b702b6bbb7f3133e57dc7cf2d2337a1b290a0cf5a450d4b981f1db132306a
+  checksum: 4d8c44a01afc07a9d8e22d6592d7528460865aed29935280ab317cdfc9d00867c0d5190d95ebaaeb4bea40f2b0a5d5034f55182d274aabd2f7040e31edc7e78f
   languageName: node
   linkType: hard
 
@@ -10743,8 +10743,8 @@ __metadata:
   resolution: "build-logo@workspace:tools/build-logo"
   dependencies:
     prettier: "npm:~3.1.1"
-    react: "npm:^17.0.2"
-    react-dom: "npm:^17.0.2"
+    react: "npm:~17.0.2"
+    react-dom: "npm:~17.0.2"
     sharp: "npm:~0.33.1"
     tools-utils: "workspace:~"
   bin:
@@ -16254,7 +16254,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"invariant@npm:^2.2.4":
+"invariant@npm:^2.2.4, invariant@npm:~2.2.4":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
   dependencies:
@@ -22270,7 +22270,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2, react-dom@npm:~17.0.2":
+"react-dom@npm:~17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -22356,28 +22356,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1, react-is@npm:^16.8.6":
+"react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 5aa564a1cde7d391ac980bedee21202fc90bdea3b399952117f54fb71a932af1e5902020144fb354b4690b2414a0c7aafe798eb617b76a3d441d956db7726fdf
   languageName: node
   linkType: hard
 
-"react-is@npm:^18.0.0":
+"react-is@npm:^18.0.0, react-is@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: 200cd65bf2e0be7ba6055f647091b725a45dd2a6abef03bf2380ce701fd5edccee40b49b9d15edab7ac08a762bf83cb4081e31ec2673a5bfb549a36ba21570df
   languageName: node
   linkType: hard
 
-"react-keyed-flatten-children@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "react-keyed-flatten-children@npm:1.3.0"
+"react-keyed-flatten-children@npm:~3.0.0":
+  version: 3.0.0
+  resolution: "react-keyed-flatten-children@npm:3.0.0"
   dependencies:
-    react-is: "npm:^16.8.6"
+    react-is: "npm:^18.2.0"
   peerDependencies:
     react: ">=15.0.0"
-  checksum: 3bb042bb7cd48909491a5f92b8e7b2fb0417d69ad24bf04dbe1ed7a308cc7dfe6e3c9b5550e7b9016ee6bef61829b92e7f3a355ed1b867affd251bd518bcdd90
+  checksum: 07c216e7420c3830969097bc7bdedaf50ae944f59540123680b99be7da3faecb6eda9edc71243f3f88696e93c4823646c609d774eee5116bdc348a7f53909b43
   languageName: node
   linkType: hard
 
@@ -22515,7 +22515,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2, react@npm:~17.0.2":
+"react@npm:~17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
