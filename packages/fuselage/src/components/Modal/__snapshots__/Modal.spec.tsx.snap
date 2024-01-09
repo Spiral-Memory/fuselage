@@ -8,7 +8,7 @@ exports[`[Modal Component] renders _WithAnnotation without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <div
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
@@ -95,7 +95,7 @@ exports[`[Modal Component] renders _WithForm without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <form
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
@@ -200,7 +200,7 @@ exports[`[Modal Component] renders _WithHeroImage without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <div
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
@@ -290,7 +290,7 @@ exports[`[Modal Component] renders _WithIcon without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <div
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
@@ -382,7 +382,7 @@ exports[`[Modal Component] renders _WithIconAndTagline without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <div
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
@@ -479,7 +479,7 @@ exports[`[Modal Component] renders _WithTagline without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <div
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
@@ -566,7 +566,7 @@ exports[`[Modal Component] renders _WithThumb without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <div
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
@@ -660,7 +660,7 @@ exports[`[Modal Component] renders Default without crashing 1`] = `
       class="rcx-box rcx-box--full rcx-modal"
     >
       <div
-        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1ppp6za"
+        class="rcx-box rcx-box--full  rcx-modal__inner rcx-css-1e2ego0"
       >
         <header
           class="rcx-box rcx-box--full rcx-modal__header"
