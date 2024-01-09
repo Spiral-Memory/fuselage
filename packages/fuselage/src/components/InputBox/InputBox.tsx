@@ -8,11 +8,12 @@ import type {
 } from 'react';
 import React, { forwardRef, useCallback, useLayoutEffect, useRef } from 'react';
 
-import type { InputBoxSkeleton } from '.';
-import { Input, Wrapper } from '.';
 import { Addon } from './Addon';
+import { Input } from './Input';
+import type { InputBoxSkeleton } from './InputBoxSkeleton';
 import type { Option } from './Option';
 import type { Placeholder } from './Placeholder';
+import { Wrapper } from './Wrapper';
 import type Box from '../Box';
 import { Icon } from '../Icon';
 
@@ -92,7 +93,7 @@ export const InputBox = forwardRef(function InputBox(
         !innerRef.current.checkValidity()
       );
     }
-  }, []);
+  }, [addon]);
 
   const handleChange = useCallback(
     (event) => {
