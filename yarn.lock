@@ -3388,13 +3388,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/hash@npm:~0.9.1":
-  version: 0.9.1
-  resolution: "@emotion/hash@npm:0.9.1"
-  checksum: 716e17e48bf9047bf9383982c071de49f2615310fb4e986738931776f5a823bc1f29c84501abe0d3df91a3803c80122d24e28b57351bca9e01356ebb33d89876
-  languageName: node
-  linkType: hard
-
 "@emotion/use-insertion-effect-with-fallbacks@npm:^1.0.0":
   version: 1.0.1
   resolution: "@emotion/use-insertion-effect-with-fallbacks@npm:1.0.1"
@@ -4232,7 +4225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@juggle/resize-observer@npm:^3.3.1, @juggle/resize-observer@npm:^3.4.0":
+"@juggle/resize-observer@npm:^3.3.1, @juggle/resize-observer@npm:~3.4.0":
   version: 3.4.0
   resolution: "@juggle/resize-observer@npm:3.4.0"
   checksum: 73d1d00ee9132fb6f0aea0531940a6b93603e935590bd450fc6285a328d906102eeeb95dea77b2edac0e779031a9708aa8c82502bd298ee4dd26e7dff48f397a
@@ -6975,7 +6968,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@rocket.chat/css-in-js@workspace:packages/css-in-js"
   dependencies:
-    "@emotion/hash": "npm:~0.9.1"
     "@rocket.chat/css-supports": "workspace:~"
     "@rocket.chat/eslint-config-alt": "workspace:~"
     "@rocket.chat/memo": "workspace:~"
@@ -7033,7 +7025,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     rollup: "npm:~4.9.4"
     rollup-plugin-terser: "npm:~7.0.2"
@@ -7061,9 +7053,9 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     prettier: "npm:~3.1.1"
   peerDependencies:
-    "@babel/eslint-parser": ^7.13.14
-    eslint: ~8.38.0
-    prettier: ~2.7.1
+    "@babel/eslint-parser": ~7.23.3
+    eslint: ~8.56.0
+    prettier: ~3.1.1
   languageName: unknown
   linkType: soft
 
@@ -7089,7 +7081,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     react: "npm:^17.0.2"
     rimraf: "npm:~5.0.5"
@@ -7125,17 +7117,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@rocket.chat/fuselage-polyfills@workspace:packages/fuselage-polyfills"
   dependencies:
-    "@juggle/resize-observer": "npm:^3.4.0"
+    "@juggle/resize-observer": "npm:~3.4.0"
     "@rocket.chat/eslint-config-alt": "workspace:~"
     "@rocket.chat/prettier-config": "workspace:~"
-    clipboard-polyfill: "npm:^3.0.3"
-    element-closest-polyfill: "npm:^1.0.6"
+    clipboard-polyfill: "npm:~4.0.2"
+    element-closest-polyfill: "npm:~1.0.7"
     eslint: "npm:~8.56.0"
-    focus-visible: "npm:^5.2.0"
-    focus-within-polyfill: "npm:^5.2.1"
+    focus-visible: "npm:~5.2.0"
+    focus-within-polyfill: "npm:~5.2.1"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    new-event-polyfill: "npm:^1.0.1"
+    new-event-polyfill: "npm:~1.0.1"
     prettier: "npm:~3.1.1"
   languageName: unknown
   linkType: soft
@@ -7163,7 +7155,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
     storybook-dark-mode: "npm:~1.1.2"
@@ -7193,7 +7185,7 @@ __metadata:
     eslint-plugin-prettier: "npm:~5.1.2"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     postcss-scss: "npm:~4.0.9"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
@@ -7247,7 +7239,7 @@ __metadata:
     autoprefixer: "npm:~10.4.16"
     babel-loader: "npm:~9.1.3"
     caniuse-lite: "npm:~1.0.30001576"
-    cross-env: "npm:^7.0.3"
+    cross-env: "npm:~7.0.3"
     css-loader: "npm:~6.8.1"
     cssnano: "npm:~6.0.3"
     es-check: "npm:~7.1.1"
@@ -7260,9 +7252,9 @@ __metadata:
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
     mini-css-extract-plugin: "npm:~2.7.6"
-    normalize.css: "npm:^8.0.1"
-    npm-run-all: "npm:^4.1.5"
-    path-browserify: "npm:^1.0.1"
+    normalize.css: "npm:~8.0.1"
+    npm-run-all: "npm:~4.1.5"
+    path-browserify: "npm:~1.0.1"
     postcss: "npm:~8.4.33"
     postcss-custom-properties: "npm:~13.3.4"
     postcss-dir-pseudo-class: "npm:~8.0.1"
@@ -7315,7 +7307,7 @@ __metadata:
     eslint: "npm:~8.56.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
     stylelint: "npm:~16.1.0"
@@ -7345,7 +7337,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     react: "npm:~17.0.2"
     react-dom: "npm:~17.0.2"
@@ -7380,7 +7372,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     react: "npm:^17.0.2"
     react-dom: "npm:^17.0.2"
@@ -7431,7 +7423,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     peggy: "npm:3.0.2"
     prettier: "npm:~3.1.1"
     prettier-plugin-pegjs: "npm:~2.0.2"
@@ -7497,13 +7489,13 @@ __metadata:
     "@types/jest": "npm:~29.5.0"
     "@types/react": "npm:~17.0.57"
     "@types/react-dom": "npm:^17.0.19"
-    countries-list: "npm:^2.6.1"
+    countries-list: "npm:~3.0.6"
     eslint: "npm:~8.56.0"
     i18next: "npm:~21.6.16"
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     react: "npm:^17.0.2"
     react-dom: "npm:^17.0.2"
@@ -7538,7 +7530,7 @@ __metadata:
     eslint: "npm:~8.56.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     peggy: "npm:3.0.2"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
@@ -7578,7 +7570,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
@@ -7599,7 +7591,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
@@ -7620,7 +7612,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
     stylis: "npm:~4.3.1"
@@ -7648,7 +7640,7 @@ __metadata:
     jest: "npm:~29.5.0"
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
@@ -13542,10 +13534,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clipboard-polyfill@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "clipboard-polyfill@npm:3.0.3"
-  checksum: 852f136ef4bb2ce31683c5e1f8f08b49fc2e86145ebb0f10e7a45b59750324c4af1fba7c4e9ed0e156130399da84dbdfbdf813d8ef46332334757faca46ee0e9
+"clipboard-polyfill@npm:~4.0.2":
+  version: 4.0.2
+  resolution: "clipboard-polyfill@npm:4.0.2"
+  checksum: e4331562f407db9818b4b1c0d90f6d27bc897a2e76c949ce421e0cae27601e28311bfc750030f41861727eea2f2ec0382ddea6a07fed9f9dddc18a1515e5763b
   languageName: node
   linkType: hard
 
@@ -14131,10 +14123,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"countries-list@npm:^2.6.1":
-  version: 2.6.1
-  resolution: "countries-list@npm:2.6.1"
-  checksum: fd2714ec8b1474a7af34d5cd176d526c03037d5ce504122a81e3d60f191032a48f93c729a8ac2ea6f059c280e46902792b83e60b0fdfa60fe1db5c7746ed1b08
+"countries-list@npm:~3.0.6":
+  version: 3.0.6
+  resolution: "countries-list@npm:3.0.6"
+  checksum: ec686f04d9f6a2be35599d27ed9e97c15f889b245127a65cabd9eecb5c9aa017a8dda9a4b2ccc4b13c4f4544985e97167927ed7b1e0d4d21639cecca145d378a
   languageName: node
   linkType: hard
 
@@ -14211,7 +14203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-env@npm:^7.0.3":
+"cross-env@npm:~7.0.3":
   version: 7.0.3
   resolution: "cross-env@npm:7.0.3"
   dependencies:
@@ -14354,7 +14346,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-mediaquery@npm:^0.1.2":
+"css-mediaquery@npm:~0.1.2":
   version: 0.1.2
   resolution: "css-mediaquery@npm:0.1.2"
   checksum: f2f7512daa015f98b82bd65bbdd7c2100b16dddf22784bde2a8085f10f11e8775da57108016fe767f5e400afe64581c15d4e649c47725af7eac5f4094fa7ae43
@@ -15344,10 +15336,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"element-closest-polyfill@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "element-closest-polyfill@npm:1.0.6"
-  checksum: f47d6fec1a2962e35b4dd63fa6cc7d3bad7abb270305345ff98ffa0a997f844589ee9e57c268a3277295dce74dcd70775e059dc1475323b4655b7e3d2f9534c3
+"element-closest-polyfill@npm:~1.0.7":
+  version: 1.0.7
+  resolution: "element-closest-polyfill@npm:1.0.7"
+  checksum: 4b86bd9b84739ff604020edd1e5985a942cfb18632376fc16a4c5840e1258091aba492cd9042536b5f208aca8d1da6537fe690231a6629ccef56520d1a510eeb
   languageName: node
   linkType: hard
 
@@ -15456,7 +15448,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"endent@npm:^2.0.1, endent@npm:^2.1.0":
+"endent@npm:^2.0.1, endent@npm:~2.1.0":
   version: 2.1.0
   resolution: "endent@npm:2.1.0"
   dependencies:
@@ -16900,14 +16892,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"focus-visible@npm:^5.2.0":
+"focus-visible@npm:~5.2.0":
   version: 5.2.0
   resolution: "focus-visible@npm:5.2.0"
   checksum: 11f686d68dbd4a0efb6714f037a4611411ffb8db4369784fcd6ba7f6cc386a42a5fa08211f6feb14ad3660719b451d0621f95058ea49963a59cf204ced38c4bc
   languageName: node
   linkType: hard
 
-"focus-within-polyfill@npm:^5.2.1":
+"focus-within-polyfill@npm:~5.2.1":
   version: 5.2.1
   resolution: "focus-within-polyfill@npm:5.2.1"
   checksum: fe7ce8715791b7778134e23a01ece66e52078b0a88285322b97079b345fe5ee30376680e07914721a23d1abcfd03e947931e69c561a27a50c642cbaa403a34fd
@@ -20307,7 +20299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2, json5@npm:^2.2.2, json5@npm:^2.2.3":
+"json5@npm:^2.1.2, json5@npm:^2.2.2, json5@npm:^2.2.3, json5@npm:~2.2.3":
   version: 2.2.3
   resolution: "json5@npm:2.2.3"
   bin:
@@ -22229,7 +22221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"new-event-polyfill@npm:^1.0.1":
+"new-event-polyfill@npm:~1.0.1":
   version: 1.0.1
   resolution: "new-event-polyfill@npm:1.0.1"
   checksum: 4c58d2b0505132b2b75d47d82e6ce4f11839f9fa13f89c22bc9cbfe6a60e18df6046b86da5bc8699dae3077beb3a9e503e76bc56a797b76379db07b44bb6952c
@@ -22477,7 +22469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize.css@npm:^8.0.1":
+"normalize.css@npm:~8.0.1":
   version: 8.0.1
   resolution: "normalize.css@npm:8.0.1"
   checksum: c3af2145c21d57b94fe9f1abe7bac82ec91f8088810ada6ee3385f29a2d51af441a469b3c680d25b27bfab5291908a3ef3ed7012955036e8967f0b18fe39f38a
@@ -22491,7 +22483,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all@npm:^4.1.5":
+"npm-run-all@npm:~4.1.5":
   version: 4.1.5
   resolution: "npm-run-all@npm:4.1.5"
   dependencies:
@@ -22933,7 +22925,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"outdent@npm:^0.8.0":
+"outdent@npm:~0.8.0":
   version: 0.8.0
   resolution: "outdent@npm:0.8.0"
   checksum: a556c5c308705ad4e3441be435f2b2cf014cb5f9753a24cbd080eadc473b988c77d0d529a6a9a57c3931fb4178e5a81d668cc4bc49892b668191a5d0ba3df76e
@@ -23274,7 +23266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-browserify@npm:^1.0.1":
+"path-browserify@npm:^1.0.1, path-browserify@npm:~1.0.1":
   version: 1.0.1
   resolution: "path-browserify@npm:1.0.1"
   checksum: 7e7368a5207e7c6b9051ef045711d0dc3c2b6203e96057e408e6e74d09f383061010d2be95cb8593fe6258a767c3e9fc6b2bfc7ce8d48ae8c3d9f6994cca9ad8
@@ -26048,11 +26040,11 @@ __metadata:
     "@rocket.chat/prettier-config": "workspace:~"
     "@types/node": "npm:~14.18.42"
     "@typescript-eslint/parser": "npm:~6.18.1"
-    cross-env: "npm:^7.0.3"
-    endent: "npm:^2.1.0"
+    cross-env: "npm:~7.0.3"
+    endent: "npm:~2.1.0"
     eslint: "npm:~8.56.0"
     fast-glob: "npm:~3.3.2"
-    npm-run-all: "npm:^4.1.5"
+    npm-run-all: "npm:~4.1.5"
     prettier: "npm:~3.1.1"
     ts-node: "npm:~10.9.2"
     typescript: "npm:~5.3.3"
@@ -27870,7 +27862,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "testing-utils@workspace:tools/testing-utils"
   dependencies:
-    css-mediaquery: "npm:^0.1.2"
+    css-mediaquery: "npm:~0.1.2"
   languageName: unknown
   linkType: soft
 
@@ -28055,7 +28047,7 @@ __metadata:
   resolution: "tools-utils@workspace:tools/tools-utils"
   dependencies:
     fast-glob: "npm:~3.3.2"
-    json5: "npm:^2.2.3"
+    json5: "npm:~2.2.3"
     rimraf: "npm:~5.0.5"
   peerDependencies:
     eslint: "*"
@@ -29082,7 +29074,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "update-readme@workspace:tools/update-readme"
   dependencies:
-    outdent: "npm:^0.8.0"
+    outdent: "npm:~0.8.0"
     zx: "npm:~7.2.3"
   bin:
     update-readme: ./update-readme.mjs

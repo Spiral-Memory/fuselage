@@ -9,7 +9,6 @@ import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json' with { type: 'json' };
 
 const globals = {
-  '@emotion/hash': 'hash',
   '@rocket.chat/memo': 'memo',
   '@rocket.chat/css-supports': 'cssSupports',
   '@rocket.chat/stylis-logical-props-middleware':
