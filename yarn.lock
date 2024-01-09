@@ -6811,7 +6811,7 @@ __metadata:
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:~3.0.2"
+    rimraf: "npm:~5.0.5"
     typedoc: "npm:~0.25.7"
     typescript: "npm:~5.3.3"
   languageName: unknown
@@ -6891,7 +6891,7 @@ __metadata:
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
     react: "npm:^17.0.2"
-    rimraf: "npm:~5.0.0"
+    rimraf: "npm:~5.0.5"
     rollup: "npm:~4.9.4"
     rollup-plugin-terser: "npm:~7.0.2"
     testing-utils: "workspace:~"
@@ -6964,7 +6964,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:~3.0.2"
+    rimraf: "npm:~5.0.5"
     storybook-dark-mode: "npm:~1.1.2"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
@@ -6995,7 +6995,7 @@ __metadata:
     npm-run-all: "npm:^4.1.5"
     postcss-scss: "npm:~4.0.9"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     style-dictionary: "npm:~3.7.2"
     stylelint: "npm:~16.1.0"
     stylelint-order: "npm:~6.0.4"
@@ -7077,7 +7077,7 @@ __metadata:
     react-stately: "npm:~3.17.0"
     react-virtuoso: "npm:~3.1.5"
     resolve-url-loader: "npm:~5.0.0"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     sass: "npm:~1.62.0"
     sass-loader: "npm:~13.2.2"
     storybook-dark-mode: "npm:~3.0.1"
@@ -7116,7 +7116,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     stylelint: "npm:~16.1.0"
     stylelint-order: "npm:~6.0.4"
     stylelint-prettier: "npm:~5.0.0"
@@ -7149,7 +7149,7 @@ __metadata:
     react: "npm:~17.0.2"
     react-dom: "npm:~17.0.2"
     react-i18next: "npm:~11.15.4"
-    rimraf: "npm:~3.0.2"
+    rimraf: "npm:~5.0.5"
     storybook-dark-mode: "npm:~3.0.1"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
@@ -7183,7 +7183,7 @@ __metadata:
     prettier: "npm:~3.1.1"
     react: "npm:^17.0.2"
     react-dom: "npm:^17.0.2"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
     typescript: "npm:~5.3.3"
@@ -7205,7 +7205,7 @@ __metadata:
     lint-all: "workspace:~"
     lint-staged: "npm:~15.2.0"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:~3.0.2"
+    rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
     typescript: "npm:~5.3.3"
@@ -7234,7 +7234,7 @@ __metadata:
     peggy: "npm:3.0.2"
     prettier: "npm:~3.1.1"
     prettier-plugin-pegjs: "npm:~2.0.2"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     tldts: "npm:~5.7.112"
     ts-jest: "npm:~29.1.0"
     ts-loader: "npm:~9.5.1"
@@ -7308,7 +7308,7 @@ __metadata:
     react-dom: "npm:^17.0.2"
     react-hook-form: "npm:~7.27.1"
     react-i18next: "npm:~11.15.7"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     storybook-dark-mode: "npm:^1.1.2"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
@@ -7340,7 +7340,7 @@ __metadata:
     npm-run-all: "npm:^4.1.5"
     peggy: "npm:3.0.2"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
     typescript: "npm:~5.3.3"
     webpack: "npm:~5.78.0"
@@ -7379,7 +7379,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
     typescript: "npm:~5.3.3"
@@ -7400,7 +7400,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
     typescript: "npm:~5.3.3"
@@ -7421,7 +7421,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     stylis: "npm:~4.3.1"
     ts-jest: "npm:~29.1.0"
     typedoc: "npm:~0.25.7"
@@ -7449,7 +7449,7 @@ __metadata:
     lint-staged: "npm:~15.2.0"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
     ts-jest: "npm:~29.1.0"
     ts-loader: "npm:~9.5.1"
     typedoc: "npm:~0.25.7"
@@ -16178,7 +16178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9, fast-glob@npm:~3.2.12":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -16191,7 +16191,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.3.1, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.3.1, fast-glob@npm:^3.3.2, fast-glob@npm:~3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -17157,18 +17157,6 @@ __metadata:
   version: 0.4.1
   resolution: "glob-to-regexp@npm:0.4.1"
   checksum: 9009529195a955c40d7b9690794aeff5ba665cc38f1519e111c58bb54366fd0c106bde80acf97ba4e533208eb53422c83b136611a54c5fefb1edd8dc267cb62e
-  languageName: node
-  linkType: hard
-
-"glob@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "glob@npm:10.0.0"
-  dependencies:
-    fs.realpath: "npm:^1.0.0"
-    minimatch: "npm:^9.0.0"
-    minipass: "npm:^5.0.0"
-    path-scurry: "npm:^1.6.4"
-  checksum: 5c25609d5e618677a1d8ebb290764710bd1a0e363e9b7d2251743e127f27cfbfb0927e351547c84887f7ccb678a61ea1e18d799274d4b74fbe65705a75862b14
   languageName: node
   linkType: hard
 
@@ -20523,13 +20511,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^9.0.0":
-  version: 9.0.1
-  resolution: "lru-cache@npm:9.0.1"
-  checksum: fd8b6ca391fa0cbaf9d41aadc34a72b6e5cef9c018365ce5f6c8a2aa1ffeac0d4635bbf0e94f8b548a650108619a817a3d7064eef3c2dbd69fc756767237e06a
-  languageName: node
-  linkType: hard
-
 "lru-cache@npm:^9.1.1 || ^10.0.0":
   version: 10.1.0
   resolution: "lru-cache@npm:10.1.0"
@@ -23048,16 +23029,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-scurry@npm:^1.6.4":
-  version: 1.6.4
-  resolution: "path-scurry@npm:1.6.4"
-  dependencies:
-    lru-cache: "npm:^9.0.0"
-    minipass: "npm:^5.0.0"
-  checksum: c74f21dc8481ff4ad8efc29a3d5a94ab46952e32489dd1815c6ebab042f17f7f861b2141da05818c6a69d0252610d108a95f9b065e97f65e1ef3140e7971faef
-  languageName: node
-  linkType: hard
-
 "path-to-regexp@npm:0.1.7":
   version: 0.1.7
   resolution: "path-to-regexp@npm:0.1.7"
@@ -25401,7 +25372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^3.0.2, rimraf@npm:~3.0.2":
+"rimraf@npm:^3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
@@ -25412,7 +25383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^5.0.5":
+"rimraf@npm:^5.0.5, rimraf@npm:~5.0.5":
   version: 5.0.5
   resolution: "rimraf@npm:5.0.5"
   dependencies:
@@ -25420,17 +25391,6 @@ __metadata:
   bin:
     rimraf: dist/esm/bin.mjs
   checksum: a612c7184f96258b7d1328c486b12ca7b60aa30e04229a08bbfa7e964486deb1e9a1b52d917809311bdc39a808a4055c0f950c0280fba194ba0a09e6f0d404f6
-  languageName: node
-  linkType: hard
-
-"rimraf@npm:~5.0.0":
-  version: 5.0.0
-  resolution: "rimraf@npm:5.0.0"
-  dependencies:
-    glob: "npm:^10.0.0"
-  bin:
-    rimraf: dist/cjs/src/bin.js
-  checksum: 739d5aaad0d50157ef9c329473d150eb8ebcb50dcce64379b8f24e6c819826b7496c99ada93c1f8dc6cc660a68d58037bcb9d08ecb040f8055eb4fbf19b69d91
   languageName: node
   linkType: hard
 
@@ -25761,7 +25721,7 @@ __metadata:
     cross-env: "npm:^7.0.3"
     endent: "npm:^2.1.0"
     eslint: "npm:~8.56.0"
-    fast-glob: "npm:~3.2.12"
+    fast-glob: "npm:~3.3.2"
     npm-run-all: "npm:^4.1.5"
     prettier: "npm:~3.1.1"
     ts-node: "npm:~10.9.2"
@@ -27782,9 +27742,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tools-utils@workspace:tools/tools-utils"
   dependencies:
-    fast-glob: "npm:~3.2.12"
+    fast-glob: "npm:~3.3.2"
     json5: "npm:^2.2.3"
-    rimraf: "npm:^3.0.2"
+    rimraf: "npm:~5.0.5"
   peerDependencies:
     eslint: "*"
     prettier: "*"
