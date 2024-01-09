@@ -71,7 +71,7 @@
     "prettier": "~3.1.1",
     "react": "~17.0.2",
     "react-dom": "~17.0.2",
-    "react-i18next": "~11.15.7",
+    "react-i18next": "~14.0.0",
     "rimraf": "~5.0.5",
     "storybook-dark-mode": "^1.1.2",
     "ts-jest": "~29.1.1",
@@ -80,7 +80,7 @@
   },
   "dependencies": {
     "i18next": "~23.7.16",
-    "react-hook-form": "~7.27.1"
+    "react-hook-form": "~7.49.3"
   },
   "peerDependencies": {
     "@rocket.chat/fuselage": "*",
