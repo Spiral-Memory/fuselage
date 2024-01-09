@@ -1,5 +1,5 @@
 import { Title, Description, Primary, Stories } from '@storybook/addon-docs';
-import type { ComponentStory, ComponentMeta } from '@storybook/react';
+import type { StoryFn, Meta } from '@storybook/react';
 import React from 'react';
 
 import { SidebarSection } from '.';
@@ -25,9 +25,9 @@ export default {
       ),
     },
   },
-} as ComponentMeta<typeof TopBar>;
+} as Meta<typeof TopBar>;
 
-export const Default: ComponentStory<typeof TopBar> = () => (
+export const Default: StoryFn<typeof TopBar> = () => (
   <>
     <SidebarSection>
       <Avatar

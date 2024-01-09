@@ -1,4 +1,4 @@
-import type { ComponentStory } from '@storybook/react';
+import type { StoryFn } from '@storybook/react';
 import React, { useRef } from 'react';
 
 import { Dropdown } from './Dropdown';
@@ -14,7 +14,7 @@ export default {
   },
 };
 
-export const Default: ComponentStory<typeof Dropdown> = () => {
+export const Default: StoryFn<typeof Dropdown> = () => {
   const anchor = useRef(null);
   const target = useRef(null);
 
