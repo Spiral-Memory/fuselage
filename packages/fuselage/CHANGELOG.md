@@ -1,5 +1,15 @@
 # Change Log
 
+## 0.43.0
+
+### Minor Changes
+
+- [#1221](https://github.com/RocketChat/fuselage/pull/1221) [`769e5ea43`](https://github.com/RocketChat/fuselage/commit/769e5ea43fa7c83f988d7dfb042aeafaf66e1ad5) Thanks [@VanshulB](https://github.com/VanshulB)! - Add missing message body additional styles to `MessageBody`
+
+### Patch Changes
+
+- [#1244](https://github.com/RocketChat/fuselage/pull/1244) [`9be609744`](https://github.com/RocketChat/fuselage/commit/9be609744856f49b8971fb7aa45316ec7fd2463f) Thanks [@tassoevan](https://github.com/tassoevan)! - Deprecate `useMutableCallback` in favor of `useEffectEvent`
+
 ## 0.42.0
 
 ### Minor Changes
